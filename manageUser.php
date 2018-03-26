@@ -30,6 +30,7 @@ ORDER BY `user`.`user_id`  ASC";
 
                     <!-- Comment Form
             ============================================= -->
+                    <div class="container">
 
                         <h4>Manage User</h4>
                             <?php
