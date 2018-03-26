@@ -30,10 +30,6 @@ ORDER BY `user`.`user_id`  ASC";
 
                     <!-- Comment Form
             ============================================= -->
-                    <div class="container">
-                        <div class="welcome" align="right">
-                                <?php echo "Welcome ".$_SESSION['user_email']?>
-                        </div>
 
                         <h4>Manage User</h4>
                             <?php

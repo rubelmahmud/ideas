@@ -80,6 +80,8 @@
                                 <?php
                                 if (isset($_SESSION['user_email'])) {
 
+
+
                                         //student
                                         if ($_SESSION["user_role"] == 0) {
                                                 echo "<li><a href=\"index.php\"><div>Home</div></a></li>";
@@ -91,7 +93,6 @@
                                         } else if ($_SESSION["user_role"] == 1) {
                                                 echo "<li><a href=\"index.php\"><div>Home</div></a></li>";
                                                 echo "<li><a href=\"ideaListView.php\"><div>Browse Idea</div></a></li>";
-//
 
                                                 //QA
                                         } else if ($_SESSION["user_role"] == 2) {
@@ -124,6 +125,23 @@
                                         }
 
                                         echo "<li><a href=\"logout.php?u=done\"><div>Logout</div></a></li>";  // common
+// welcome user
+                                        $userId =$_SESSION['user_id'];
+                                        include "connect-db.php";
+                                        $sql = "SELECT user_name, user_role_name
+                                                FROM user, user_role
+                                                WHERE user.user_role = user_role.user_role
+                                                And user_id=$userId";
+
+                                        $result = $conn->query($sql);
+                                        foreach ($result as $row) {
+                                                ?>
+
+                                                 <li><br> Welcome <strong><?= $row['user_name']?> </strong>
+                                                    <br> (You're logged in as <u><?= $row['user_role_name'] ?></u>)</li>
+                                           <!-- #top-search end -->
+                                        <?php }
+
                                 } else {
                                                // Homepage
                                         echo "<li><a href=\"index.php\"><div>Home</div></a></li>";
@@ -131,16 +149,16 @@
 
                                 } ?>
                         </ul>
-							
 
-						<!-- Top Search
+
+                        <!-- Top Search
 						=============================================
-						<div id="top-search">
-							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
-							<form action="search.html" method="get">
-								<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
-							</form>
-						</div> #top-search end -->
+                        <div id="top-search">
+                            <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+                            <form action="search.html" method="get">
+                                <input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
+                            </form>
+                        </div>  #top-search end -->
 
 					</nav><!-- #primary-menu end -->
 
