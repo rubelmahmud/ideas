@@ -24,7 +24,7 @@ if ($result->num_rows > 0) {
         if ($_SESSION["user_role"] == 0) {              // 0 = student
                 header("location:ideaListView.php");
         } else if ($_SESSION["user_role"] == 1) {          //1 = stuff
-                header("location:ideaListViewStaff.php");
+                header("location:ideaListView.php");
        } else if ($_SESSION["user_role"] == 2) {          //2 = qa
                 header("location:userNumberSummary.php");
         } else if ($_SESSION["user_role"] == 3) {          //3 = qac
@@ -34,7 +34,6 @@ if ($result->num_rows > 0) {
         }
 
 } else {
-        
-        echo "<h2 align='center'>Invalid Email or Password <br/> <br> <br>";
-        echo "<a href = 'login.php'>Login</a> </h2>";
+
+        header("location:userLoginFailed.php");
 }

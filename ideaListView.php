@@ -88,7 +88,7 @@ ORDER BY student_ideas.posted_time DESC ";
 </section>
 <?php
         } else {
-                include 'userLoginFailed.php';
+                include 'userLoginFirst.php';
         }
 
         include 'footer.php';

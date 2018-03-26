@@ -1,4 +1,4 @@
-<?php include "header.php"; ?>
+
 <!-- Content
 		============================================= -->
 <section id="content">
@@ -7,11 +7,8 @@
                         <div class="row clearfix">
                                 <div class="col-xl-5">
                                         <div class="heading-block topmargin">
-                                            <h1 align="center"><font color="#a52a2a"><b>Sorry</b>!</font> <br> Email or Password is wrong</h1>
+                                            <h1 align="center"><font color="#a52a2a"><b>Sorry</b>!</font> <br> You have to login first</h1>
                                         </div>
-                                <div class="try">
-                                    <h3 align="center"><font color="#d2691e"><b>Try Again</b>!</font></h3>
-                                </div>
                                 <p align="center">
                                     <a class="button button-3d nomargin" href="login.php">Login</a>
                                 </p>
@@ -29,5 +26,3 @@
                 </div>
         </div>
 </section>
-
-<?php include "footer.php"; ?>

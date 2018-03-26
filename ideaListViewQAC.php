@@ -95,7 +95,7 @@ $result = mysqli_query($conn, $sql);
 
         <?php
         } else {
-                include 'userLoginFailed.php';
+                include 'userLoginFirst.php';
         }
 
         include 'footer.php';

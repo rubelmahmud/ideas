@@ -176,7 +176,7 @@ $bitPercent = (100/$total) * $bit;
 
                 <?php
         } else {
-                include 'userLoginFailed.php';
+                include 'userLoginFirst.php';
         }
 
         include 'footer.php';

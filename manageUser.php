@@ -89,7 +89,7 @@ ORDER BY `user`.`user_id`  ASC";
 
 
         <?php } else {
-                include 'userLoginFailed.php';
+                include 'userLoginFirst.php';
         }
 
         include 'footer.php';

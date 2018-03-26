@@ -106,7 +106,7 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
 
             <?php
             } else {
-                    include 'userLoginFailed.php';
+                    include 'userLoginFirst.php';
             }
 
             include 'footer.php';

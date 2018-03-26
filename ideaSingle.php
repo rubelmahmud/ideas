@@ -36,7 +36,7 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
             </h3>
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                        <li class="breadcrumb-item"><a href="ideaListView.php">Idea</a></li>
+                        <li class="breadcrumb-item"><a href="ideaListView.php">Idea List</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Idea Details</li>
                     </ol>
         </div>
@@ -327,7 +327,7 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
 
         <?php
 } else {
-        include 'userLoginFailed.php';
+        include 'userLoginFirst.php';
 }
 
 include 'footer.php';

@@ -47,7 +47,7 @@
  * connect-php
  * loginChecker.php
  * function.php
- * userLoginFailed.php
+ * userLoginFirst.php
  * userRestrict.php
  *
 

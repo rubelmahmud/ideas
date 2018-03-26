@@ -57,7 +57,7 @@ if (isset($_GET["message"])) {
 
             <?php
             } else {
-                    include 'userLoginFailed.php';
+                    include 'userLoginFirst.php';
             }
 
             include 'footer.php';
