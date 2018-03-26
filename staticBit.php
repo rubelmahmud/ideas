@@ -25,7 +25,7 @@ if (isset($_GET["message"])) {
                     <?php include 'dropDepartment.php' ?>
                 <div class="line"></div>
 
-                <h4>Static Report</h4>
+                <h4>Static Reports</h4>
 <?php include "connect-db.php";
 $resultBit = $conn->query("select count(user_id) as user_id
 from user,department
