@@ -133,14 +133,6 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
 
         <?php } ?>
 
-<!--                            <button type="button" class="btn btn-success">-->
-<!--                                <i class="fas fa-thumbs-up"></i> 9 Like-->
-<!--                            </button>-->
-<!---->
-<!--                            <button type="button" class="btn btn-danger">-->
-<!--                                <i class="fas fa-thumbs-down"></i> 5 Unlike-->
-<!--                            </button>-->
-
 
                             <div class="clear"></div>
 
@@ -173,14 +165,24 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                                                   class="sm-form-control" required="required">
                                         </textarea>
                                         </div>
+
                                         <div class="form-group">
-                                            <input type="checkbox" name="comment_type" value="1"> Submit as anonymous
-                                        </
-                                        >
-                                </div>
+                              <?php if (isset($_SESSION['user_email'])) {
+
+                                        //student
+                                        if ($_SESSION["user_role"] == 0) {
+                                                echo "<input type=\"checkbox\" name=\"comment_type\" value=\"1\"> Submit as anonymous";
+
+                                                //staff
+                                        } else if ($_SESSION["user_role"] == 1) {
+                                                echo "";
+                                                }
+                                }?>
+
+                                        </div>
                                 <div class="form-group">
                                     <input type="hidden" name="ideas_number" value="<?php echo $row['ideas_number']; ?>"
-                                </>
+                                </div>
                             </div>
 
                             <div class="clear"></div>

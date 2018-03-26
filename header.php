@@ -107,7 +107,7 @@
                                                             <li><a href=\"exceptionReport.php\"><div>exception report</div></a></li>
                                                         </ul>
                                                      </li>";
-                                                echo "<li><a href=\"userNumberSummary.php\"><div>User Summary</div></a></li>";
+                                                echo "<li><a href=\"userSummary.php\"><div>User Summary</div></a></li>";
                                                 echo "<li><a href=\"fileDownload.php\"><div>Download Files</div></a></li>";
 
 
