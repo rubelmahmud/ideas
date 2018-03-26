@@ -1,5 +1,8 @@
 <?php
 session_start();
+if (isset($_SESSION['user_role']) && $_SESSION['user_role'] != 0 && $_SESSION['user_role'] != 1 ){
+        include 'userRestrict.php';
+} else {
 include 'header.php';
 
 if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
@@ -31,11 +34,11 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
         <div class="container clearfix">
             <h3><a href="ideaSingle.php?ideas_number=<?php echo $row['ideas_number']; ?>"><?= $row['ideas_title'] ?></a>
             </h3>
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="ideaListView.php">Idea</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Idea Details</li>
-            </ol>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                        <li class="breadcrumb-item"><a href="ideaListView.php">Idea</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Idea Details</li>
+                    </ol>
         </div>
 
         </section><!-- #page-title end -->
@@ -328,4 +331,4 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
 }
 
 include 'footer.php';
-?>
+} ?>

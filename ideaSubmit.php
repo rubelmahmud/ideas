@@ -68,8 +68,13 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                     <div class="form-group">
                         <label for="category">CHOOSE CATEGORY</label>
                             <?php include 'connect-db.php';
-                            $sql = "SELECT * FROM  category";
-                            $result = $conn->query($sql); ?>
+
+                            $sql = "SELECT * FROM  category WHERE DATE (ideas_closer_date) > DATE(now())";
+
+                            $result = $conn->query($sql);
+                           //  var_dump($result);
+                            ?>
+
                         <select class="form-control" name="category_id" id="category">
                                 <?php foreach ($result as $row) { ?>
                                     <option value="<?= $row['category_id'] ?>"><?= $row['category_name'] ?></option>

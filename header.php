@@ -90,9 +90,8 @@
                                                 //staff
                                         } else if ($_SESSION["user_role"] == 1) {
                                                 echo "<li><a href=\"index.php\"><div>Home</div></a></li>";
-                                                echo "<li><a href=\"ideaListViewStaff.php\"><div>Browse Idea</div></a></li>";
-//                                                echo "<li><a href=\"staffComment.php\"><div>Show all comments</div></a></li>";
-//                                                echo "<li><a href=\"staffIdea.php\"><div>Show all ideas</div></a></li>";
+                                                echo "<li><a href=\"ideaListView.php\"><div>Browse Idea</div></a></li>";
+//
 
                                                 //QA
                                         } else if ($_SESSION["user_role"] == 2) {

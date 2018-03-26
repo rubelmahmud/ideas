@@ -26,8 +26,10 @@ if (isset($_GET["message"])) {
                 <div class="line"></div>
 
                 <h4>Static Reports</h4>
-<?php include "connect-db.php";
-$resultBit = $conn->query("select count(user_id) as user_id
+                    <?php include "connect-db.php";
+
+//                    Number Of Student
+                    $resultBit = $conn->query("select count(user_id) as user_id
 from user,department
 where department.department_id=user.department_id
 and user_role='0'
@@ -36,20 +38,20 @@ and department.department_name='BIT'");
 
                             $bit = $r['user_id'];
                     }
-                   // $bitPercent = (100 / $total) * $bit;
-
                     ?>
 
-<?php
-$resultB = $conn->query("select count(student_ideas.ideas_number) as total
+<!--Number Of Idea Submit -->
+                    <?php
+                    $resultB = $conn->query("select count(student_ideas.ideas_number) as total
 from user,department,student_ideas
 where department.department_id=user.department_id
 and user.user_id=student_ideas.user_id
 and department_name='BIT'");
 
-foreach($resultB as $r){
-    $total = $r['total'];
-} ?>
+                    foreach ($resultB as $r) {
+                            $total = $r['total'];
+                    } ?>
+
 
                 <div class="table-responsive">
                     <table class="table table-bordered nobottommargin">
@@ -76,26 +78,13 @@ foreach($resultB as $r){
                         </tbody>
 
                         <tbody>
-                        <tr>
-                            <th>Precentage Of Student Contribute</th>
-                            <td>80%</td>
-                        </tr>
-                        </tbody>
-
-                        <tbody>
 
                         <tr>
                             <th>Number Of Idea Submit</th>
-                            <td><?= $total?></td>
+                            <td><?= $total ?></td>
                         </tr>
                         </tbody>
 
-                        <tbody>
-                        <tr>
-                            <th>Percentage Of Idea Submit</th>
-                            <td>30%</td>
-                        </tr>
-                        </tbody>
                     </table>
                 </div>
                 <div class="line"></div>
