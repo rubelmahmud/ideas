@@ -50,8 +50,7 @@ ORDER BY student_ideas.posted_time DESC ";
                             <th>Idea Description</th>
                             <th>Category</th>
                             <th>Idea Posted</th>
-                            <th>Closer Date</th>
-                            <th>Final Closer Date</th>
+                            <th>Comment Closer Date</th>
                             <th>Idea By</th>
                             <th>Click View Details</th>
                         </tr>
@@ -67,7 +66,7 @@ ORDER BY student_ideas.posted_time DESC ";
                                     <td><?php echo $row["ideas_description"]; ?></td>
                                     <td><?php echo $row["category_name"]; ?></td>
                                     <td><?php echo date("d F, Y", strtotime($row["posted_time"])); ?></td>
-                                    <td><?php echo date("d F, Y", strtotime($row["ideas_closer_date"])); ?></td>
+<!--                                    <td>--><?php //echo date("d F, Y", strtotime($row["ideas_closer_date"])); ?><!--</td>-->
                                     <td><?php echo date("d F, Y", strtotime($row["ideas_final_closer_date"])); ?></td>
                                     <td><?php if ($row["ideas_type"] == 1){
                                                     echo "Anonymous";

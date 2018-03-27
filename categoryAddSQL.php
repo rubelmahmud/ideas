@@ -44,9 +44,7 @@ if ($flag == 0) {
 VALUES ('$category_name', '$category_desc', '$ideas_closer_date', '$ideas_final_closer_date', now())";
 
         if ($conn->query($sql)) {
-                echo '<script>alert("Category added successfully."); </script>';
-                // include 'categoryAdd.php';
-
+                $_SESSION['successCat'] = 'ok';
               header('location:categoryAdd.php');
         } else {
                 echo "Error: " . $sql . "<br>" . $conn->error;

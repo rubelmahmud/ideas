@@ -15,7 +15,7 @@ if (isset($_SESSION['user_role']) && $_SESSION['user_role'] != 4) {
 $sql = "SELECT * FROM `user`, `department`, `user_role`
 WHERE user.user_role = user_role.user_role
 AND user.department_id =department.department_id
-ORDER BY `user`.`user_id`  ASC";
+ORDER BY `user_role`.`user_role_name`  ASC";
 
                 //3. execute query to get result
                 $resultSet = $conn->query($sql); ?>
@@ -71,7 +71,7 @@ ORDER BY `user`.`user_id`  ASC";
                                         <td><?= $row['user_phone'] ?></td>
                                         <td><?= $row['department_name'] ?></td>
                                         <td><?= $row['user_role_name'] ?></td>
-                                        <td><a href="userStdUpdate.php?user_id=<?= $row['user_id'] ?>">Update</td>
+                                        <td><a href="userUpdate.php?user_id=<?= $row['user_id'] ?>">Update</td>
                                         <td><a href="userDelete.php?user_id=<?= $row['user_id'] ?>">Remove</td>
                                     </tr>
                                 <?php } ?>
@@ -92,7 +92,6 @@ ORDER BY `user`.`user_id`  ASC";
         include 'footer.php';
 } ?>
 
-<!--  UPDATE `user` SET `user_phone` = '01912311291' WHERE `user`.`user_id` = 6; -->
 
 
 <!-- Serial No of Table Entry -->

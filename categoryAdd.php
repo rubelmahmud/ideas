@@ -26,6 +26,19 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
 
                 <h3>Add a <span>Category</span></h3>
 
+                    <?php
+                    if(isset($_SESSION['successCat'])){
+                            ?>
+
+                        <div class="alert alert-success">
+                            <i class="icon-thumbs-up"></i><strong>Category Added successfully</strong>
+                        </div>
+                            <?php
+                            unset($_SESSION['successCat']);
+
+                    }
+                    ?>
+
                 <form class="clearfix" action="categoryAddSQL.php" method="POST" id="commentform">
 
                     <div class="form-group">

@@ -23,7 +23,7 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
 
                 //2. generate query to select all data from db table
 
-                $sql = "SELECT * FROM category";
+                $sql = "SELECT * FROM category ORDER BY `category`.`created_time` DESC";
 
                 //3. execute query to get result
                 $result = mysqli_query($conn, $sql);
@@ -40,9 +40,10 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                             <th>No.</th>
                             <th>Category Name</th>
                             <th>Description</th>
+                            <th>Created Time</th>
                             <th>Ideas Closer Date</th>
                             <th>Ideas Final Closer Date</th>
-                            <th>Remove</th>
+                            <th>Remove Category</th>
                         </tr>
                         </thead>
                             <?php
@@ -56,6 +57,7 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                             <td> </td>
                             <td><?php echo $row["category_name"];?></td>
                             <td><?php echo $row["category_desc"];?></td>
+                            <td><?php echo $row["created_time"];?></td>
                             <td><?php echo $row["ideas_closer_date"];?></td>
                             <td><?php echo $row["ideas_final_closer_date"];?></td>
                             <td> Remove</td>

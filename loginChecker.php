@@ -26,7 +26,7 @@ if ($result->num_rows > 0) {
         } else if ($_SESSION["user_role"] == 1) {          //1 = stuff
                 header("location:ideaListView.php");
        } else if ($_SESSION["user_role"] == 2) {          //2 = qa
-                header("location:userNumberSummary.php");
+                header("location:userSummary.php");
         } else if ($_SESSION["user_role"] == 3) {          //3 = qac
                 header("location:ideaListViewQAC.php");
         } else if ($_SESSION["user_role"] == 4) {       //4 = admin

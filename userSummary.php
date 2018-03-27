@@ -11,11 +11,11 @@ if (isset($_SESSION['user_role']) && $_SESSION['user_role'] != 2) {
         if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
 
                 include 'connect-db.php';
-                $result = $conn->query("SELECT count(*) as Total from user");
-//print_r($result);
-foreach($result as $r){
-    $total = $r['Total'];
-}
+        $result = $conn->query("SELECT count(*) as Total from user");
+
+        foreach($result as $r){
+        $total = $r['Total'];
+                }
                 ?>
 
 

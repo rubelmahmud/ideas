@@ -91,8 +91,8 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                         <div class="entry-content notopmargin">
 
                             <ul>
-                                <li>Idea Taking Closer Date: <b><?= date("d F, Y", strtotime($row["ideas_closer_date"])); ?></b></li>
-                                <li>Idea Final Closer Date:<b> <?= date("d F, Y", strtotime($row["ideas_final_closer_date"])); ?></b></li>
+<!--                                <li>Idea Taking Closer Date: <b>--><?//= date("d F, Y", strtotime($row["ideas_closer_date"])); ?><!--</b></li>-->
+                                <li>Comment Closer Date:<b> <?= date("d F, Y", strtotime($row["ideas_final_closer_date"])); ?></b></li>
                             </ul>
 
                             <p><?= $row['ideas_description'] ?></p>

@@ -51,13 +51,12 @@ $result = mysqli_query($conn, $sql);
                                         <tr>
                                                 <th>No.</th>
                                                 <th>Idea Title</th>
-                                                <th>Idea No</th>
                                                 <th>Idea Description</th>
                                                 <th>Category</th>
                                                 <th>Idea Posted</th>
                                                 <th>Idea By</th>
-                                                <th>Approve</th>
-                                                <th>Cancel</th>
+                                                <th>Approve Idea</th>
+                                                <th>Cancel Idea</th>
                                         </tr>
                                         </thead>
                                         <?php
@@ -70,11 +69,10 @@ $result = mysqli_query($conn, $sql);
                                         <tr>
                                                 <td> </td>
                                                 <td><a href="ideaSingle.php?ideas_number=<?php echo $row['ideas_number'];?>"><?= $row['ideas_title'] ?></a></td>
-                                                <td><?php echo $row["ideas_number"];?></td>
                                                 <td><?php echo $row["ideas_description"];?></td>
                                                 <td><?php echo $row["category_name"];?></td>
-                                            <td><?php echo $row["user_name"];?></td>
-                                                <td><?php echo $row["posted_time"];?></td>
+                                                <td><?php echo date("d F, Y", strtotime($row["posted_time"])); ?></td>
+                                                <td><?php echo $row["user_name"];?></td>
                                                 <th>Approve</th>
                                                 <th>Cancel</th>
                                         </tr>
