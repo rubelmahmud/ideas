@@ -52,7 +52,7 @@ And comment_type ='1'";
                             <th>No.</th>
                             <th>Comment</th>
                             <th>Comment Date</th>
-                            <th>Idea</th>
+                            <th>Idea Title</th>
                             <th>Category</th>
 
                         </tr>

@@ -52,6 +52,16 @@ and department_name='BIT'");
                             $total = $r['total'];
                     } ?>
 
+                <!--Number Of Contribution -->
+                    <?php
+                    $resultC = $conn->query("SELECT((SELECT COUNT(ideas_number) as con
+FROM student_ideas) + (SELECT COUNT(comment_id) FROM comment))");
+
+                    foreach ($resultC as $r) {
+                            $totalC = $r['con'];
+                          //   var_dump($totalC);
+                    } ?>
+
 
                 <div class="table-responsive">
                     <table class="table table-bordered nobottommargin">
@@ -73,7 +83,7 @@ and department_name='BIT'");
                         <tbody>
                         <tr>
                             <th>Number Of Student contribute</th>
-                            <td>80</td>
+                            <td><?= $totalC ?></td>
                         </tr>
                         </tbody>
 
@@ -100,7 +110,7 @@ and department_name='BIT'");
 
                 <div class="divider"><i class="icon-circle"></i></div>
 
-                <h3>Percentage Of departement Contribution</h3>
+                <h3>Percentage Of department Contribution</h3>
 
                 <ul class="skills">
                     <li data-percent="80">
@@ -114,11 +124,25 @@ and department_name='BIT'");
                             </div>
                         </div>
                     </li>
-                    <li data-percent="60">
+
+                        <?php
+                        $resultIdea= $conn->query("select count(student_ideas.ideas_number) as total
+from user,department,student_ideas
+where department.department_id=user.department_id
+and user.user_id=student_ideas.user_id
+and department_name='BIT'");
+                        foreach($resultIdea as $r){
+
+                                $bit =  $r['total'];
+                        }
+                        $l5dcPercent = (100/$total) * $bit;
+                        ?>
+
+                    <li data-percent="<?= $l5dcPercent ?>">
                         <span>Idea Submit</span>
                         <div class="progress">
                             <div class="progress-percent">
-                                <div class="counter counter-inherit counter-instant"><span data-from="0" data-to="60"
+                                <div class="counter counter-inherit counter-instant"><span data-from="0" data-to="<?= $l5dcPercent ?>"
                                                                                            data-refresh-interval="30"
                                                                                            data-speed="1100"></span>%
                                 </div>

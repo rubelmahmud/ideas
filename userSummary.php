@@ -74,7 +74,6 @@ $bitPercent = (100/$total) * $bit;
                                 $bit =  $r['user_id'];
                                 }
                                 $l5dcPercent = (100/$total) * $bit;
-
                                 ?>
 
                                 <div class="col_half center col_last nobottommargin">

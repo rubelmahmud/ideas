@@ -32,7 +32,7 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                 ?>
 
 
-                <h4>Category List/h4>
+                <h4>Category List</h4>
                     <?php
                     if (isset($_SESSION['successDelete'])) {
                             ?>

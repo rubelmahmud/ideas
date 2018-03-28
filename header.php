@@ -102,11 +102,11 @@
                                             echo "<li><a href=\"#\"><div>Reports</div></a>
                                                         <ul>
                                                             <li><a href=\"staticBit.php\"><div>static report</div></a></li>
-                                                            <li><a href=\"exceptionReport.php\"><div>exception report</div></a></li>
+                                                            <li><a href=\"noCommentIdea.php\"><div>exception report</div></a></li>
+                                                            <li><a href=\"userSummary.php\"><div>User Summary</div></a></li>
                                                         </ul>
                                                      </li>";
-                                            echo "<li><a href=\"userSummary.php\"><div>User Summary</div></a></li>";
-                                            echo "<li><a href=\"fileDownload.php\"><div>Download Files</div></a></li>";
+                                            echo "<li><a href=\"fileDownload.php\"><div>Download</div></a></li>";
 
 
                                             ////QAC
