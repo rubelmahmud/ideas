@@ -47,7 +47,7 @@ if ($flag == 0) {
         $sql = "INSERT INTO student_ideas(ideas_title, ideas_description, ideas_type, category_id, user_id) 
 VALUES ('$ideas_title', '$ideas_description', '$ideas_type', '$category_id', '$user_id')";
 
-       // $sql = "INSERT INTO document(files) VALUES ('$doc_path')";
+      include 'upload.php';
 
 
         if ($conn->query($sql)) {

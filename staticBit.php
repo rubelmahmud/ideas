@@ -2,12 +2,8 @@
 session_start();
 include 'header.php';
 
-
 if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
 
-if (isset($_GET["message"])) {
-        echo '<script>alert("' . $_GET["message"] . '");</script>';
-}
 ?>
 
 <!-- Content
@@ -150,9 +146,6 @@ and department_name='BIT'");
                         </div>
                     </li>
                 </ul>
-
-
-                <div class="line"></div>
 
 
             </div>

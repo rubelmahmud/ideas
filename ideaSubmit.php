@@ -82,7 +82,9 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                         </select>
                     </div>
                     <div class="form-group">
-                        <input type="file"  name="fileToUpload" multiple="multiple"> </>
+                        <input type="hidden" name="MAX_FILE_SIZE" value="2000000" />
+
+                        <input id="userfile" type="file" name="userfile" />
                     </div>
                     <div class="form-group">
                         <input type="checkbox" name="ideas_type" value="1">  Submit as anonymous </>
