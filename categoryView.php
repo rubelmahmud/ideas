@@ -17,6 +17,7 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
         <div class="content-wrap">
             <div class="container">
 
+
                 <?php
                 //1. connect database
                 include 'connect-db.php';
@@ -31,7 +32,19 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                 ?>
 
 
-                <h4>Category table</h4>
+                <h4>Category List/h4>
+                    <?php
+                    if (isset($_SESSION['successDelete'])) {
+                            ?>
+
+                        <div class="alert alert-success">
+                            <i class="icon-thumbs-up"></i><strong>This category has been removed</strong>
+                        </div>
+                            <?php
+                            unset($_SESSION['successDelete']);
+
+                    }
+                    ?>
 
                 <div class="table-responsive">
                     <table class="table table-bordered nobottommargin">
@@ -60,7 +73,7 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                             <td><?php echo $row["created_time"];?></td>
                             <td><?php echo $row["ideas_closer_date"];?></td>
                             <td><?php echo $row["ideas_final_closer_date"];?></td>
-                            <td> Remove</td>
+                            <td><a href="categoryDelete.php?category_id=<?= $row['category_id'] ?>">Remove</td>
                         </tr>
                         </tbody>
                            <?php

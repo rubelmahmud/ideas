@@ -34,14 +34,14 @@ ORDER BY `user_role`.`user_role_name`  ASC";
 
                         <h4>Manage User</h4>
                             <?php
-                            if (isset($_SESSION['successIdea'])) {
+                            if (isset($_SESSION['successDelete'])) {
                                     ?>
 
                                 <div class="alert alert-success">
                                     <i class="icon-thumbs-up"></i><strong>This user has been removed</strong>
                                 </div>
                                     <?php
-                                    unset($_SESSION['successIdea']);
+                                    unset($_SESSION['successDelete']);
 
                             }
                             ?>
@@ -105,3 +105,11 @@ ORDER BY `user_role`.`user_role_name`  ASC";
         content: counter(Serial); /* Display the counter */
     }
 </style>
+
+<script type="text/javascript">
+    function user_id(id) {
+        if (confirm('Sure To Remove This Record ?')) {
+            window.location.href = 'userDelete.php?user_id=' + id;
+        }
+    }
+</script>

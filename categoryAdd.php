@@ -67,7 +67,7 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
 
                     <div class="form-group nobottommargin">
                         <button name="submit" type="submit" id="submit-button" tabindex="5" value="Submit"
-                                class="button button-3d nomargin">POST
+                                class="button button-3d nomargin">ADD
                         </button>
                     </div>
                 </form>

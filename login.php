@@ -52,12 +52,14 @@
 
 									<div class="col_full">
 										<label for="login-form-username">User email:</label>
-										<input type="text" id="user_email" name="user_email" class="form-control not-dark" />
+										<input type="email" id="user_email" name="user_email"
+                                               class="form-control not-dark" required="required" />
 									</div>
 
 									<div class="col_full">
 										<label for="login-form-password">Password:</label>
-										<input type="password" id="user_pass" name="user_pass" class="form-control not-dark" />
+										<input type="password" id="user_pass" name="user_pass"
+                                               class="form-control not-dark" required="required" />
 									</div>
 
 									<div class="col_full nobottommargin">

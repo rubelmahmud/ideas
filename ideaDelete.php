@@ -5,19 +5,19 @@ session_start();
 if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
 
 //1. connect database
-include 'connect-db.php';
+        include 'connect-db.php';
 
-$user_id = $_GET['user_id'];
+        $ideas_number = $_GET['ideas_number'];
 //2. generate query to select all data from db table
-$sql = "DELETE from user WHERE user_id=$user_id";
+        $sql = "DELETE from student_ideas WHERE ideas_number=$ideas_number";
 
 //3. execute query to get result
-$result = $conn->query($sql);
+        $result = $conn->query($sql);
 
         if ($conn->query($sql)) {
                 $_SESSION['successDelete'] = 'ok';
 
-                header('location:userManage.php');
+                header('location:ideaListViewQAC.php');
 
         } else {
                 echo "Error: " . $sql . "<br>" . $conn->error;

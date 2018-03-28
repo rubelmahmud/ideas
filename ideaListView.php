@@ -55,9 +55,12 @@ ORDER BY student_ideas.posted_time DESC ";
                             <th>Click View Details</th>
                         </tr>
                         </thead>
-                            <?php
-                            while ($row = mysqli_fetch_array($result)) { ?>
-
+                <?php
+                if(mysqli_num_rows($result) > 0)
+                {
+                        while($row = mysqli_fetch_array($result))
+                        {
+                                ?>
                                 <tr>
                                     <td></td>
                                     <td>
@@ -78,7 +81,7 @@ ORDER BY student_ideas.posted_time DESC ";
                                     </td>
                                 </tr>
 
-                            <?php }
+                            <?php } }
                             ?>
                     </table>
                 </div>

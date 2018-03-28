@@ -30,7 +30,7 @@ if ($result->num_rows > 0) {
         } else if ($_SESSION["user_role"] == 3) {          //3 = qac
                 header("location:ideaListViewQAC.php");
         } else if ($_SESSION["user_role"] == 4) {       //4 = admin
-                header("location:manageUser.php");
+                header("location:userManage.php");
         }
 
 } else {

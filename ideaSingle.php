@@ -268,12 +268,11 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                                         <?php echo $rowCom['comment_description']; ?>
                        </div>
                       <?php }
-                        }
-                         } ?>
+                         } } ?>
 
 
         </div><!-- Post Single - Author End -->
-<!--      --><?php //} ?>
+<!--
 
 
     <div id="disqus_thread"></div>

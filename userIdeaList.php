@@ -16,12 +16,13 @@
                                                 <th>Click View Details</th>
                                         </tr>
                                         </thead>
-                                        <?php
+                                        <?php if(mysqli_num_rows($result) > 0)
+                                        {
                                         while ($row = mysqli_fetch_array($result)) { ?>
 
                                                 <tr>
                                                         <td>
-                                                                <a href="ideaSingle.php?ideas_number=<?php echo $row['ideas_number']; ?>"><?= $row['ideas_title'] ?></a>
+                                                            <a href="ideaSingle.php?ideas_number=<?php echo $row['ideas_number']; ?>"><?= $row['ideas_title'] ?></a>
                                                         </td>
                                                         <td><?php echo $row["ideas_description"]; ?></td>
                                                         <td><?php echo $row["category_name"]; ?></td>
@@ -32,7 +33,7 @@
                                                         </td>
                                                 </tr>
 
-                                        <?php }
+                                        <?php } }
                                         ?>
                                 </table>
                         </div>

@@ -45,6 +45,19 @@ $result = mysqli_query($conn, $sql);
 <section id="content">
         <div class="content-wrap">
             <div class="container">
+                <h4>Idea List</h4>
+                    <?php
+                    if (isset($_SESSION['successDelete'])) {
+                            ?>
+
+                        <div class="alert alert-success">
+                            <i class="icon-thumbs-up"></i><strong>This idea has been removed</strong>
+                        </div>
+                            <?php
+                            unset($_SESSION['successDelete']);
+
+                    }
+                    ?>
                         <div class="table-responsive">
                                 <table class="table table-bordered nobottommargin">
                                         <thead>
@@ -55,26 +68,24 @@ $result = mysqli_query($conn, $sql);
                                                 <th>Category</th>
                                                 <th>Idea Posted</th>
                                                 <th>Idea By</th>
-                                                <th>Approve Idea</th>
-                                                <th>Cancel Idea</th>
+                                                <th>Remove Idea</th>
                                         </tr>
                                         </thead>
                                         <?php
                                         if(mysqli_num_rows($result) > 0)
-                                        { //var_dump(mysqli_fetch_array($result));
+                                        {
                                         while($row = mysqli_fetch_array($result))
                                         {
                                         ?>
                                         <tbody>
                                         <tr>
                                                 <td> </td>
-                                                <td><a href="ideaSingle.php?ideas_number=<?php echo $row['ideas_number'];?>"><?= $row['ideas_title'] ?></a></td>
+                                                <td><?= $row['ideas_title'] ?></td>
                                                 <td><?php echo $row["ideas_description"];?></td>
                                                 <td><?php echo $row["category_name"];?></td>
                                                 <td><?php echo date("d F, Y", strtotime($row["posted_time"])); ?></td>
                                                 <td><?php echo $row["user_name"];?></td>
-                                                <th>Approve</th>
-                                                <th>Cancel</th>
+                                                <td><a href="ideaDelete.php?ideas_number=<?= $row['ideas_number'] ?>">Remove</td>
                                         </tr>
                                         </tbody>
                                                 <?php

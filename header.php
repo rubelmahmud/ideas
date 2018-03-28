@@ -119,7 +119,7 @@
                                             //Admin
                                     } else if ($_SESSION["user_role"] == 4) {
                                             echo "<li><a href=\"index.php\"><div>Home</div></a></li>";
-                                            echo "<li><a href=\"manageUser.php\"><div>Manage User</div></a></li>";
+                                            echo "<li><a href=\"userManage.php\"><div>Manage User</div></a></li>";
                                     }
 
                                     // welcome user
