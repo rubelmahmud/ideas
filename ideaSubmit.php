@@ -81,11 +81,12 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                                 <?php } ?>
                         </select>
                     </div>
-                    <div class="form-group">
-                        <input type="hidden" name="MAX_FILE_SIZE" value="2000000" />
 
-                        <input id="userfile" type="file" name="userfile" />
+                    <div class="form-group">
+                        <input type="file" name="file[]" multiple="multiple">
+                        </>
                     </div>
+
                     <div class="form-group">
                         <input type="checkbox" name="ideas_type" value="1">  Submit as anonymous </>
                     </div>
@@ -96,7 +97,7 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                     <div class="clear"></div>
 
                     <div class="form-group nobottommargin">
-                        <button name="submit" type="submit" id="submit-button" tabindex="5" value="Submit"
+                        <button name="submit" type="submit" id="submit" tabindex="5" value=" Submit "
                                 class="button button-3d nomargin">SUBMIT
                         </button>
                     </div>

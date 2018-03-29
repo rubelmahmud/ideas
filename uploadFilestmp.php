@@ -11,7 +11,7 @@
             <div class="container" align="center">
                 <div id="respond" class="clearfix">
                     <h3>Upload <span>FILES</span></h3>
-                    <form class="clearfix" action="uploadFiles2.php" method="POST" id="idea_submit"
+                    <form class="clearfix" action="uploadZipFile.php" method="POST" id="idea_submit"
                           enctype="multipart/form-data">
 
                         <div class="form-group">

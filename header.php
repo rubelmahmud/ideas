@@ -93,7 +93,7 @@
                                             //QA
                                     } else if ($_SESSION["user_role"] == 2) {
                                             echo "<li><a href=\"index.php\"><div>Home</div></a></li>";
-                                            echo "<li><a href=\"#\"><div>Manage Category</div></a>
+                                            echo "<li><a href=\"categoryView.php\"><div>Manage Category</div></a>
                                                         <ul>
                                                             <li><a href=\"categoryView.php\"><div>Category List</div></a></li>
                                                             <li><a href=\"categoryAdd.php\"><div>Add Category</div></a></li>

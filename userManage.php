@@ -45,6 +45,18 @@ ORDER BY `user_role`.`user_role_name`  ASC";
 
                             }
                             ?>
+                            <?php
+                            if(isset($_SESSION['successUU'])){
+                                    ?>
+
+                                <div class="alert alert-success">
+                                    <i class="icon-thumbs-up"></i><strong>User updated successfully</strong>
+                                </div>
+                                    <?php
+                                    unset($_SESSION['successUU']);
+
+                            }
+                            ?>
                         <div class="table-responsive">
                             <table class="table table-bordered nobottommargin">
                                 <thead>

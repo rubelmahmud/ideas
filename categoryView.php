@@ -46,6 +46,19 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                     }
                     ?>
 
+                    <?php
+                    if(isset($_SESSION['successCatU'])){
+                            ?>
+
+                        <div class="alert alert-success">
+                            <i class="icon-thumbs-up"></i><strong>Category updated successfully</strong>
+                        </div>
+                            <?php
+                            unset($_SESSION['successCatU']);
+
+                    }
+                    ?>
+
                 <div class="table-responsive">
                     <table class="table table-bordered nobottommargin">
                         <thead>
@@ -56,6 +69,7 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                             <th>Created Time</th>
                             <th>Ideas Closer Date</th>
                             <th>Ideas Final Closer Date</th>
+                            <th>Update Category</th>
                             <th>Remove Category</th>
                         </tr>
                         </thead>
@@ -73,6 +87,7 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                             <td><?php echo $row["created_time"];?></td>
                             <td><?php echo $row["ideas_closer_date"];?></td>
                             <td><?php echo $row["ideas_final_closer_date"];?></td>
+                            <td><a href="categoryUpdate.php?category_id=<?= $row['category_id'] ?>">Update</td>
                             <td><a href="categoryDelete.php?category_id=<?= $row['category_id'] ?>">Remove</td>
                         </tr>
                         </tbody>

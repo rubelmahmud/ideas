@@ -78,4 +78,6 @@ if (mysqli_num_rows($result) == 0) {
                                 </table>
                 </div>
     </div>
-<?php include 'footer.php';
+<?php include 'footer.php'; ?>
+
+

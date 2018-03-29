@@ -11,7 +11,6 @@ if(isset($_POST['ideas_type'])){
 
 $category_id = $_POST['category_id'];
 $user_id = $_SESSION['user_id'];
-$doc_path = $_FILES["fileToUpload"]["name"];
 
 
 
@@ -40,22 +39,20 @@ if (!isset($category_id)) {
 }
 
 if ($flag == 0) {
-
         include 'connect-db.php';
 
+                include 'uploadZipFile.php';
 
-        $sql = "INSERT INTO student_ideas(ideas_title, ideas_description, ideas_type, category_id, user_id) 
-VALUES ('$ideas_title', '$ideas_description', '$ideas_type', '$category_id', '$user_id')";
+        $sql = "INSERT INTO student_ideas(ideas_title, ideas_description, ideas_type, category_id, user_id, file) 
+VALUES ('$ideas_title', '$ideas_description', '$ideas_type', '$category_id', '$user_id', 'zip_file/$source_file')";
 
-      include 'upload.php';
 
 
         if ($conn->query($sql)) {
-              //  include 'fileupload.php';
 
 // success message
                 $_SESSION['successIdea'] = 'ok';
-                 header('location:ideaSubmit.php');
+                header('location:ideaSubmit.php');
         } else {
                 echo "Error: " . $sql . "<br>" . $conn->error;
 
