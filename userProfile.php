@@ -39,7 +39,7 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
             <div class="panel-body">
             <div class="row">
             <div class="col-md-3 col-lg-3 " align="center"><img alt="User Pic"
-                                                                src="images/author/rsz_ava.png"
+                                                                src="<?= $row['user_photo'] ?>"
                                                                 class="img-square img-responsive">
             </div>
 

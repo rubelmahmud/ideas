@@ -95,18 +95,18 @@
                                             echo "<li><a href=\"index.php\"><div>Home</div></a></li>";
                                             echo "<li><a href=\"categoryView.php\"><div>Manage Category</div></a>
                                                         <ul>
-                                                            <li><a href=\"categoryView.php\"><div>Category List</div></a></li>
-                                                            <li><a href=\"categoryAdd.php\"><div>Add Category</div></a></li>
+                                                            <li><a href=\"categoryView.php\"><div>CATEGORY LIST</div></a></li>
+                                                            <li><a href=\"categoryAdd.php\"><div>ADD CATEGORY</div></a></li>
                                                         </ul>
                                                      </li>";
                                             echo "<li><a href=\"#\"><div>Reports</div></a>
                                                         <ul>
-                                                            <li><a href=\"staticBit.php\"><div>static report</div></a></li>
-                                                            <li><a href=\"noCommentIdea.php\"><div>exception report</div></a></li>
-                                                            <li><a href=\"userSummary.php\"><div>User Summary</div></a></li>
+                                                            <li><a href=\"staticBit.php\"><div>STATIC REPORT</div></a></li>
+                                                            <li><a href=\"noCommentIdea.php\"><div>EXCEPTION REPORT</div></a></li>
+                                                            <li><a href=\"userSummary.php\"><div>USER SUMMARY</div></a></li>
                                                         </ul>
                                                      </li>";
-                                            echo "<li><a href=\"fileDownload.php\"><div>Download</div></a></li>";
+                                            echo "<li><a href=\"downloadZipFile.php\"><div>Download</div></a></li>";
 
 
                                             ////QAC
@@ -140,12 +140,12 @@
                                             </a>
                                             <ul>
                                                 <li><a href="userProfile.php">
-                                                        <div><br> Welcome <strong><?= $row['user_name'] ?> </strong>
+                                                        <div style="text-transform: uppercase"><br> Welcome <strong><?= $row['user_name'] ?> </strong>
                                                             <br> (<?= $row['user_role_name'] ?>)
                                                         </div>
                                                     </a></li>
                                                 <li><a href="logout.php?u=done">
-                                                        <div>Logout</div>
+                                                        <div>LOGOUT</div>
                                                     </a></li>
                                             </ul>
 

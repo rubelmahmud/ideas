@@ -17,15 +17,22 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
 $user_id = $_GET['user_id'];
 include 'connect-db.php';
 
-$sql = "SELECT * FROM user WHERE user_id=$user_id";
+// $sql = "SELECT * FROM user WHERE user_id=$user_id";
+
+$sql = "SELECT * FROM `user`, `department`, `user_role`
+WHERE user.user_role = user_role.user_role
+AND user.department_id =department.department_id
+AND user.user_id=$user_id";
 $record = $conn->query($sql);
 
 
 foreach($record as $row){
-        $user_name  	= $row['user_name'];
-        $user_email 	= $row['user_email'];
-        $user_address 	= $row['user_address'];
-        $user_phone 	= $row['user_phone'];
+        $user_name  	    = $row['user_name'];
+        $user_email 	    = $row['user_email'];
+        $user_role_name 	= $row['user_role_name'];
+        $department_name 	= $row['department_name'];
+        $user_address 	    = $row['user_address'];
+        $user_phone 	    = $row['user_phone'];
 }
 
 ?>
@@ -48,6 +55,16 @@ foreach($record as $row){
 										<input type="email" id="user_email" name="user_email"
                                                value="<?php if(isset($user_email)) {echo $user_email ;} ?>" class="form-control not-dark" />
 									</div>
+                                    <div class="col_full">
+                                        <label for="login-form-username">Role</label>
+                                        <input type="text" id="user_address" name="user_address" disabled
+                                               value="<?php if(isset($user_role_name)) {echo $user_role_name ;} ?>" class="form-control not-dark" />
+                                    </div>
+                                    <div class="col_full">
+                                        <label for="login-form-username">Department</label>
+                                        <input type="text" id="user_address" name="user_address" disabled
+                                               value="<?php if(isset($department_name)) {echo $department_name ;} ?>" class="form-control not-dark" />
+                                    </div>
                                     <div class="col_full">
                                         <label for="login-form-username">Address</label>
                                         <input type="text" id="user_address" name="user_address"

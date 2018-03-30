@@ -1,6 +1,8 @@
 <?php
 session_start();
 
+// gmail pass:  ewsd12345mydw!
+
 $ideas_title = $_POST['ideas_title'];
 $ideas_description = $_POST['ideas_description'];
 if(isset($_POST['ideas_type'])){
@@ -43,16 +45,55 @@ if ($flag == 0) {
 
                 include 'uploadZipFile.php';
 
-        $sql = "INSERT INTO student_ideas(ideas_title, ideas_description, ideas_type, category_id, user_id, file) 
-VALUES ('$ideas_title', '$ideas_description', '$ideas_type', '$category_id', '$user_id', 'zip_file/$source_file')";
+      if ($total<1) {
+              $sql = "INSERT INTO student_ideas(ideas_title, ideas_description, ideas_type, category_id, user_id) 
+VALUES ('$ideas_title', '$ideas_description', '$ideas_type', '$category_id', '$user_id')";
+      } else {
+              $sql = "INSERT INTO student_ideas(ideas_title, ideas_description, ideas_type, category_id, user_id, file) 
+VALUES ('$ideas_title', '$ideas_description', '$ideas_type', '$category_id', '$user_id', 'uploadFileZip/$source_file')";
+      }
+
 
 
 
         if ($conn->query($sql)) {
 
+                $ $user_id = $_SESSION['user_id'];
+                $user_email =$_SESSION['user_email'];
+
+                $resultN = $conn->query("SELECT user_name as user_name FROM user 
+                          WHERE user_id = $user_id");
+                foreach ($resultN as $r) {
+
+                        $user_name = $r['user_name'];
+                }
+
+
+// Mail Send
+                include 'mailSender.php';
+/// the message
+                $mail->Body = 'Dear ' . $user_name . ', Your IDEA has been posted successfully. ';
+
+                // use wordwrap() if lines are longer than 70 characters
+                //  $msg = wordwrap($msg,70);
+                //  echo $msg; exit;
+                // send email
+                //mail($email,"My subject",$msg);
+                // notification
+                $mail->addAddress($user_email, $user_name);
+
+                if (!$mail->send()) {
+                        echo 'Mail could not be sent.';
+                        echo 'Mailer Error: ' . $mail->ErrorInfo;
+                } else {
+                        echo 'Mail has been sent, check your inbox/spam please <br><br>';
+                }
+
 // success message
                 $_SESSION['successIdea'] = 'ok';
-                header('location:ideaSubmit.php');
+                 header('location:ideaSubmit.php');
+
+
         } else {
                 echo "Error: " . $sql . "<br>" . $conn->error;
 

@@ -15,7 +15,12 @@ if (isset($_SESSION['user_role']) && $_SESSION['user_role'] != 4) {
 $sql = "SELECT * FROM `user`, `department`, `user_role`
 WHERE user.user_role = user_role.user_role
 AND user.department_id =department.department_id
+NOT IN (user_id='2')
 ORDER BY `user_role`.`user_role_name`  ASC";
+
+// EXCEPT
+//                SELECT * FROM user
+// WHERE user.user_id=$user_id
 
                 //3. execute query to get result
                 $resultSet = $conn->query($sql); ?>

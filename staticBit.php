@@ -131,20 +131,22 @@ and department_name='BIT'");
 
                                 $bit =  $r['total'];
                         }
-                        $l5dcPercent = (100/$total) * $bit;
+                        $bitPercent = (100/$total) * $bit;
                         ?>
 
-                    <li data-percent="<?= $l5dcPercent ?>">
+
+                    <li data-percent="<?= $bitPercent ?>">
                         <span>Idea Submit</span>
                         <div class="progress">
                             <div class="progress-percent">
-                                <div class="counter counter-inherit counter-instant"><span data-from="0" data-to="<?= $l5dcPercent ?>"
+                                <div class="counter counter-inherit counter-instant"><span data-from="0" data-to="<?= $bitPercent ?>"
                                                                                            data-refresh-interval="30"
                                                                                            data-speed="1100"></span>%
                                 </div>
                             </div>
                         </div>
                     </li>
+                    <br> <br> <br>
                 </ul>
 
 
