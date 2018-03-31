@@ -12,15 +12,14 @@ if (isset($_SESSION['user_role']) && $_SESSION['user_role'] != 4) {
 //1. connect database
                 include 'connect-db.php';
                 //2. generate query to select all data from db table
+                $user_id = $_SESSION['user_id'];
 $sql = "SELECT * FROM `user`, `department`, `user_role`
 WHERE user.user_role = user_role.user_role
 AND user.department_id =department.department_id
-NOT IN (user_id='2')
+AND user_id!=$user_id
 ORDER BY `user_role`.`user_role_name`  ASC";
 
-// EXCEPT
-//                SELECT * FROM user
-// WHERE user.user_id=$user_id
+// $sql2 = "SELECT * FROM user NOT IN (user_id='2')";
 
                 //3. execute query to get result
                 $resultSet = $conn->query($sql); ?>

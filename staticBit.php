@@ -52,7 +52,7 @@ and department_name='BIT'");
                     <?php
                     $resultC = $conn->query("SELECT((SELECT COUNT(ideas_number)
 FROM student_ideas) + (SELECT COUNT(comment_id) FROM comment)) as Total");
-                    
+
                     foreach ($resultC as $rows) {
                             $totalC = $rows['Total'];
                           //
