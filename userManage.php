@@ -13,6 +13,7 @@ if (isset($_SESSION['user_role']) && $_SESSION['user_role'] != 4) {
                 include 'connect-db.php';
                 //2. generate query to select all data from db table
                 $user_id = $_SESSION['user_id'];
+
 $sql = "SELECT * FROM `user`, `department`, `user_role`
 WHERE user.user_role = user_role.user_role
 AND user.department_id =department.department_id

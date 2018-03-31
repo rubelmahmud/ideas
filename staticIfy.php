@@ -33,7 +33,7 @@ if (isset($_SESSION['user_role']) && $_SESSION['user_role'] != 2) {
 from user,department
 where department.department_id=user.department_id
 and user_role='0'
-and department.department_name='L5DC'");
+and department.department_name='IFY'");
                     foreach ($resultBit as $r) {
 
                             $bit = $r['user_id'];
@@ -46,7 +46,7 @@ and department.department_name='L5DC'");
 FROM department,user,comment
 WHERE department.department_id=user.department_id
 AND user.user_id=comment.user_id
-AND department_name='L5DC'");
+AND department_name='IFY'");
 
                     foreach ($resultC as $rows) {
                             $totalC = $rows['Total'];
@@ -58,7 +58,7 @@ AND department_name='L5DC'");
 from user,department,student_ideas
 where department.department_id=user.department_id
 and user.user_id=student_ideas.user_id
-and department_name='L5DC'");
+and department_name='IFY'");
 
                     foreach ($resultB as $r) {
                             $total = $r['total'];
@@ -71,7 +71,7 @@ and department_name='L5DC'");
                         <thead>
                         <tr>
                             <th>Department Name</th>
-                            <td>L5DC</td>
+                            <td>IFY</td>
                         </tr>
                         </thead>
 
@@ -126,7 +126,7 @@ and department_name='L5DC'");
 FROM department,user,comment
 WHERE department.department_id=user.department_id
 AND user.user_id=comment.user_id
-AND department_name='L5DC'");
+AND department_name='IFY'");
                     foreach ($resultCon as $r) {
 
                             $bit = $r['Total'];
@@ -160,7 +160,7 @@ AND department_name='L5DC'");
 FROM student_ideas,department,user
 WHERE department.department_id=user.department_id
 AND user.user_id=student_ideas.user_id
-AND department_name='L5DC'");
+AND department_name='IFY'");
                         foreach ($resultIdea as $r) {
 
                                 $bit = $r['total'];

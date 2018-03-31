@@ -21,7 +21,7 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
             <div class="container">
 
                 <div id="respond" class="clearfix">
-                                            <h3>Choose an oprion for <span>Exception Report</span></h3>
+                                            <h3>Choose an option for <span>Exception Report</span></h3>
                                             
                                             
 

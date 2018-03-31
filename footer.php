@@ -9,7 +9,7 @@
 				<div class="container clearfix">
 
 					<div class="col_half">
-						Copyrights &copy; 2014 All Rights Reserved by IDEA<br>
+						Copyrights &copy; 2018 All Rights Reserved by IDEA<br>
 						<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
 					</div>
 

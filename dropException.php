@@ -7,8 +7,5 @@
             <a class="dropdown-item" href="privateComment.php">Private Comment </a>
             <a class="dropdown-item" href="privateIdea.php">Private idea</a>
         </div>
-        From:
-        <input type="date" name="" value="">
-        To:
-        <input type="date" name="" value="">
+
 </div>

@@ -32,7 +32,7 @@ if (isset($_SESSION['user_role']) && $_SESSION['user_role'] != 2) {
                                 <div class="heading-block topmargin">
                                     <h2> Total User
                                         <span>
-                                        <?php echo $total; ?>
+                                        <?= $total; ?>
                                         </span></h2>
                                 </div>
 
