@@ -38,7 +38,7 @@ $sql = "UPDATE category SET category_name='$category_name', category_desc='$cate
 
 if ($conn->query($sql)) {
         $_SESSION['successCatU'] = 'ok';
-        header('location:CategoryView.php');
+        header('location:categoryView.php');
 } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
 

@@ -68,34 +68,52 @@ VALUES ('$comment_description', '$comment_type', '$ideas_number', '$user_id')";
 
 
 // sending email to comment poster
-                        include 'mailSender.php';
-/// the message
-                        $mail->Body = 'Dear ' . $user_name . ', Your comment has been posted successfully on this IDEA= (' . $ideas_title . ')';
-// notification
-                        $mail->addAddress($user_email, $user_name);
 
-                        if (!$mail->Send()) {
-                                echo "Mailer Error: " . $mail->ErrorInfo;
-                        } else {
-                                echo "Message sent!<br>";
-                        }
+                        include 'mailSender.php';
+
+                        if ($_SESSION['user_role'] == 0) {
+
+                                /// the message
+                                $mail->Body = 'Dear ' . $user_name . ', Your comment has been posted successfully on this IDEA= (' . $ideas_title . ')';
+// notification
+                                $mail->addAddress($user_email, $user_name);
+
+                                if (!$mail->Send()) {
+                                        echo "Mailer Error: " . $mail->ErrorInfo;
+                                } else {
+                                        echo "Message sent!<br>";
+                                }
 
 
 // sending email to idea author
-                        $mail2 = clone $mail;
 
-                        $mail2->addAddress($author_email, $author_name);
+                                $mail2 = clone $mail;
 
-                        $mail2->Body = 'Dear ' . $author_name . ', A comment has been added to your IDEA= (' . $ideas_title . ')';
-}
+                                $mail2->addAddress($author_email, $author_name);
 
-                if (!$mail2->send()) {
-                        echo 'Mail could not be sent.';
-                        echo 'Mailer Error: ' . $mail->ErrorInfo;
-                } else {
-                        echo 'Mail has been sent, check your inbox/spam please <br><br>';
+                                $mail2->Body = 'Dear ' . $author_name . ', A comment has been added to your IDEA= (' . $ideas_title . ')';
+
+
+                                if (!$mail2->Send()) {
+                                        echo "Mailer Error: " . $mail->ErrorInfo;
+                                } else {
+                                        echo "Message sent!<br>";
+                                }
+
+                        } else if ($_SESSION['user_role'] != 0) {
+                                /// the message
+                                $mail->Body = 'Dear ' . $user_name . ', Your comment has been posted successfully on this IDEA= (' . $ideas_title . ')';
+// notification
+                                $mail->addAddress($user_email, $user_name);
+
+                                if (!$mail->Send()) {
+                                        echo "Mailer Error: " . $mail->ErrorInfo;
+                                } else {
+                                        echo "Message sent!<br>";
+                                }
+                        }
+
                 }
-
 
 // success msg
                 $_SESSION['successCom'] = 'ok';

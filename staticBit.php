@@ -50,12 +50,12 @@ and department_name='BIT'");
 
                 <!--Number Of Contribution -->
                     <?php
-                    $resultC = $conn->query("SELECT((SELECT COUNT(ideas_number) as con
-FROM student_ideas) + (SELECT COUNT(comment_id) FROM comment))");
-
-                    foreach ($resultC as $r) {
-                            $totalC = $r['con'];
-                          //   var_dump($totalC);
+                    $resultC = $conn->query("SELECT((SELECT COUNT(ideas_number)
+FROM student_ideas) + (SELECT COUNT(comment_id) FROM comment)) as Total");
+                    
+                    foreach ($resultC as $rows) {
+                            $totalC = $rows['Total'];
+                          //
                     } ?>
 
 
