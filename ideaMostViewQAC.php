@@ -31,13 +31,14 @@ AND user.user_id =$uId";
 
 
 
-                $query = "SELECT COUNT(page_id) AS View, page_views.ideas_number,ideas_title FROM page_views 
-RIGHT JOIN student_ideas ON page_views.ideas_number=student_ideas.ideas_number 
-LEFT JOIN user ON page_views.user_id = user.user_id
-INNER JOIN department on user.department_id=department.department_id
-WHERE department.department_id=$dep
-GROUP BY page_views.ideas_number
-ORDER BY page_views.ideas_number DESC";
+                $query = "SELECT COUNT(page_id) as total, student_ideas.ideas_title, page_views.ideas_number
+FROM page_views, student_ideas,user, department
+WHERE page_views.ideas_number=student_ideas.ideas_number
+AND student_ideas.user_id=user.user_id
+AND user.department_id=department.department_id
+AND department.department_id=$dep
+GROUP BY student_ideas.ideas_number
+ORDER BY total DESC";
 
                 $result = mysqli_query($conn, $query);
                 ?>
@@ -70,7 +71,7 @@ ORDER BY page_views.ideas_number DESC";
                                                                                 <td>
                                                                                  <a href="ideaSingle.php?ideas_number=<?php echo $row['ideas_number']; ?>"><?= $row['ideas_title'] ?></a>
                                                                                 </td>
-                                                                                <td><?php echo $row["View"]; ?></td>
+                                                                                <td><?php echo $row["total"]; ?></td>
 
 
                                                                                 <?php } ?>
