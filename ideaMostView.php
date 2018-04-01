@@ -15,11 +15,12 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                               ============================================= -->
                 <?php
                 include 'connect-db.php';
-                $query = "SELECT COUNT(page_id) AS View, page_views.ideas_number,ideas_title, user_name FROM page_views 
-RIGHT JOIN student_ideas ON page_views.ideas_number=student_ideas.ideas_number 
-LEFT JOIN user ON page_views.user_id = user.user_id
-GROUP BY page_views.ideas_number
-ORDER BY page_views.ideas_number DESC";
+                $query = "SELECT COUNT(page_id) as total, student_ideas.ideas_title, page_views.ideas_number, user.user_name, student_ideas.ideas_type
+FROM page_views, student_ideas,user
+WHERE page_views.ideas_number=student_ideas.ideas_number
+AND student_ideas.user_id=user.user_id
+GROUP BY student_ideas.ideas_number
+ORDER BY total DESC";
 
                 $result = mysqli_query($conn, $query);
                 ?>
@@ -52,8 +53,14 @@ ORDER BY page_views.ideas_number DESC";
                                                                                 <td>
                                                                                  <a href="ideaSingle.php?ideas_number=<?php echo $row['ideas_number']; ?>"><?= $row['ideas_title'] ?></a>
                                                                                 </td>
-                                                                                <td><?php echo $row["user_name"]; ?></td>
-                                                                                <td><?php echo $row["View"]; ?></td>
+                                                                                 <td>
+                                                                                 <?php if ($row["ideas_type"] == 1){
+                                                                                            echo "Anonymous";
+                                                                                    } else {
+                                                                                         echo $row["user_name"];
+                                                                                 }?>
+                                                                                 </td>
+                                                                                <td><?php echo $row["total"]; ?></td>
 
 
                                                                                 <?php } ?>

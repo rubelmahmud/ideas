@@ -36,7 +36,7 @@ WHERE department.department_id=$dep
 AND thumbsupdown.type='1'
 
 GROUP BY thumbsupdown.ideas_number
-ORDER BY thumbsupdown.ideas_number DESC";
+ORDER BY Pop DESC";
 
                 $result = mysqli_query($conn, $query);
                 ?>

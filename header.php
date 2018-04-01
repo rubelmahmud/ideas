@@ -95,9 +95,9 @@
                                             echo "<li><a href=\"index.php\"><div>Home</div></a></li>";
                                             echo "<li><a href=\"ideaListView.php\"><div>BROWSE IDEAS</div></a>
                                                         <ul>
-                                                            <li><a href=\"ideaMostView.php\"><div>Most Viewed Idea</div></a></li>
-                                                            <li><a href=\"ideaMostPop.php\"><div>Most Popular Idea</div></a></li>
-                                                            <li><a href=\"ideaMostDis.php\"><div>Most Disliked Idea</div></a></li>
+                                                            <li><a href=\"ideaMostView.php\"><div>Most Viewed Ideas</div></a></li>
+                                                            <li><a href=\"ideaMostPop.php\"><div>Most Popular Ideas</div></a></li>
+                                                            <li><a href=\"ideaMostDis.php\"><div>Most Disliked Ideas</div></a></li>
                                                             
                                                         </ul>
                                                      </li>";
@@ -122,14 +122,14 @@
                                             echo "<li><a href=\"index.php\"><div>Home</div></a></li>";
                                             echo "<li><a href=\"ideaListView.php\"><div>BROWSE IDEAS</div></a>
                                                         <ul>
-                                                   
-                                                            <li><a href=\"ideaMostViewQAC.php\"><div>Most Viewed Idea</div></a></li>
-                                                            <li><a href=\"ideaMostPopQAC.php\"><div>Most Popular Idea</div></a></li>
-                                                            <li><a href=\"ideaMostDisQAC.php\"><div>Most Disliked Idea</div></a></li>
+                                                            <li><a href=\"ideaMostViewQAC.php\"><div>Manage Ideas</div></a></li>
+                                                            <li><a href=\"ideaMostViewQAC.php\"><div>Most Viewed Ideas</div></a></li>
+                                                            <li><a href=\"ideaMostPopQAC.php\"><div>Most Popular Ideas</div></a></li>
+                                                            <li><a href=\"ideaMostDisQAC.php\"><div>Most Disliked Ideas</div></a></li>
                                                             
                                                         </ul>
                                                      </li>";
-                                            echo "<li><a href=\"ideaListViewQAC.php\"><div>Manage Idea</div></a></li>";
+                                            echo "<li><a href=\"sentEmail.php\"><div>Send Email</div></a></li>";
 
                                             //Admin
                                     } else if ($_SESSION["user_role"] == 4) {

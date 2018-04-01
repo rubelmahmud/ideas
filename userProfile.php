@@ -48,10 +48,6 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
             <table class="table table-user-information">
             <tbody>
             <tr>
-                <td>User ID:</td>
-                <td><b><?= $row['user_id'] ?></b></td>
-            </tr>
-            <tr>
                 <td>Name:</td>
                 <td style="text-transform: uppercase"><b><?= $row['user_name'] ?></b></td>
             </tr>
@@ -90,7 +86,7 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
     <hr>
     <br>
     <div class="clear"></div>
-
+<!-- my idea list (for student only)-->
         <?php
         $query = "SELECT * FROM student_ideas, user, category
 WHERE student_ideas.user_id = user.user_id 
@@ -106,7 +102,7 @@ ORDER BY student_ideas.posted_time DESC ";
 
                         //staff
                 } else if ($_SESSION["user_role"] == 1) {
-                        echo " ";
+                        echo '';
 
                 }
         }
@@ -118,7 +114,7 @@ ORDER BY student_ideas.posted_time DESC ";
                 if ($_SESSION["user_role"] == 0) {
                         include "userConStd.php";;
 
-                } else if ($_SESSION["user_role"] == 1) {
+                } else if ($_SESSION["user_role"] != 0 ) {
                         include "userConStaff.php";
 
                 }
@@ -140,7 +136,7 @@ ORDER BY student_ideas.posted_time DESC ";
                                ";
 
                         //staff
-                } else if ($_SESSION["user_role"] == 1) {
+                } else if ($_SESSION["user_role"] != 0) {
                         echo "
                 <div class=\"promo promo-light bottommargin\">
                     <h3>Call us today at <span>+91.22.57412541</span> or Email us at <span>support@canvas.com</span>

@@ -23,8 +23,6 @@ student_ideas.category_id = category.category_id
 AND student_ideas.file IS NOT NULL
 ORDER BY student_ideas.posted_time DESC ";
 
-
-
                 $result = mysqli_query($conn, $sql);
                 ?>
 
@@ -39,7 +37,6 @@ ORDER BY student_ideas.posted_time DESC ";
                                 <tr>
                                     <th>No.</th>
                                     <th>Idea Title</th>
-                                    <th>Idea Description</th>
                                     <th>Category</th>
                                     <th>Idea Posted</th>
                                     <th>Idea By</th>
@@ -55,11 +52,18 @@ ORDER BY student_ideas.posted_time DESC ";
                                                 <tbody>
                                                 <tr>
                                                     <td> </td>
-                                                    <td><?= $row['ideas_title'] ?></td>
-                                                    <td><?php echo $row["ideas_description"];?></td>
+                                                    <td>
+                                                        <a href="ideaSingle.php?ideas_number=<?php echo $row['ideas_number']; ?>"><?= $row['ideas_title'] ?></a>
+                                                    </td>
                                                     <td><?php echo $row["category_name"];?></td>
                                                     <td><?php echo date("d F, Y", strtotime($row["posted_time"])); ?></td>
-                                                    <td><?php echo $row["user_name"];?></td>
+                                                    <td>
+                                                            <?php if ($row["ideas_type"] == 1){
+                                                                    echo "Anonymous";
+                                                            } else {
+                                                                    echo $row["user_name"];
+                                                            }?>
+                                                    </td>
                                                     <td><a href="<?php echo $row['file']; ?>">Download</a></td>
                                                 </tr>
                                                 </tbody>

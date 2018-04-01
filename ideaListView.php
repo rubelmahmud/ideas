@@ -66,12 +66,13 @@ ORDER BY student_ideas.posted_time DESC ";
                                     <td><?php echo $row["ideas_description"]; ?></td>
                                     <td><?php echo $row["category_name"]; ?></td>
                                     <td><?php echo date("d F, Y", strtotime($row["posted_time"])); ?></td>
-<!--                                    <td>--><?php //echo date("d F, Y", strtotime($row["ideas_closer_date"])); ?><!--</td>-->
                                     <td><?php echo date("d F, Y", strtotime($row["ideas_final_closer_date"])); ?></td>
+
                                     <td><?php if ($row["ideas_type"] == 1){
                                                     echo "Anonymous";
-                                            } else { ?>
-                                            <?php echo $row["user_name"]; ?></td>
+                                            } else {
+                                             echo $row["user_name"]; ?>
+                                    </td>
                                         <?php } ?>
                                     <td>
                                         <a href="ideaSingle.php?ideas_number=<?php echo $row['ideas_number']; ?>">VIEW DETAILS</a>

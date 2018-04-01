@@ -72,13 +72,9 @@ VALUES ('$ideas_title', '$ideas_description', '$ideas_type', '$category_id', '$u
 // Mail Send
                 include 'mailSender.php';
 /// the message
-                $mail->Body = 'Dear ' . $user_name . ', Your IDEA has been posted successfully. ';
+                $mail->Body = 'Dear ' . $user_name . ',<br> <br> Your IDEA has been posted successfully. ';
 
-                // use wordwrap() if lines are longer than 70 characters
-                //  $msg = wordwrap($msg,70);
-                //  echo $msg; exit;
-                // send email
-                //mail($email,"My subject",$msg);
+
                 // notification
                 $mail->addAddress($user_email, $user_name);
 

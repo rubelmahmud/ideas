@@ -34,7 +34,9 @@ if ($flag == 0) {
 
 include 'connect-db.php';
 
-$sql = "UPDATE category SET category_name='$category_name', category_desc='$category_desc', ideas_closer_date='$cdeas_closer_date', ideas_final_closer_date='$final_final_closer_date' WHERE category_id=$cat_id";
+$sql = "UPDATE category SET category_name='$category_name', category_desc='$category_desc', 
+ideas_closer_date='$ideas_closer_date', ideas_final_closer_date='$ideas_final_closer_date' 
+WHERE category_id=$cat_id";
 
 if ($conn->query($sql)) {
         $_SESSION['successCatU'] = 'ok';

@@ -27,14 +27,27 @@ if(isset($_SESSION['user_role']) && $_SESSION['user_role'] != 3){
 </section><!-- #page-title end -->
 <!-- Content
            ============================================= -->
-<?php
-include "connect-db.php";
+                <?php
+                include 'connect-db.php';
 
-// $inum = $_GET['ideas_number'];
+                $uId = $_SESSION['user_id'];
+                $queryDep = "SELECT * FROM user, department
+WHERE user.department_id = department.department_id
+AND user.user_id =$uId";
 
-$sql = "SELECT * FROM student_ideas, user, category
-WHERE student_ideas.user_id = user.user_id AND
-student_ideas.category_id = category.category_id
+                $resultDep = mysqli_query($conn, $queryDep);
+                foreach ($resultDep as $r) {
+
+                        $dep = $r['department_id'];
+                        $depN = $r['department_name'];
+                }
+
+
+$sql = "SELECT * FROM student_ideas, user, category, department
+WHERE student_ideas.user_id = user.user_id 
+AND student_ideas.category_id = category.category_id
+AND user.department_id = department.department_id
+AND department.department_id=$dep
 ORDER BY student_ideas.posted_time DESC ";
 
 
@@ -45,7 +58,8 @@ $result = mysqli_query($conn, $sql);
 <section id="content">
         <div class="content-wrap">
             <div class="container">
-                <h4>Idea List</h4>
+                <h3>Manage Ideas</h3>
+                <h5>My Department Wise (<?php echo $depN?>)</h5>
                     <?php
                     if (isset($_SESSION['successDelete'])) {
                             ?>
@@ -80,11 +94,19 @@ $result = mysqli_query($conn, $sql);
                                         <tbody>
                                         <tr>
                                                 <td> </td>
-                                                <td><?= $row['ideas_title'] ?></td>
+                                                <td>
+                                                    <a href="ideaSingle.php?ideas_number=<?php echo $row['ideas_number']; ?>"><?= $row['ideas_title'] ?></a>
+                                                </td>
                                                 <td><?php echo $row["ideas_description"];?></td>
                                                 <td><?php echo $row["category_name"];?></td>
                                                 <td><?php echo date("d F, Y", strtotime($row["posted_time"])); ?></td>
-                                                <td><?php echo $row["user_name"];?></td>
+                                                <td><?php if ($row["ideas_type"] == 1){
+                                                            echo "Anonymous";
+                                                    } else {
+                                                    echo $row["user_name"]; ?>
+                                                </td>
+                                                <?php } ?>
+
                                                 <td><a href="ideaDelete.php?ideas_number=<?= $row['ideas_number'] ?>">Remove</td>
                                         </tr>
                                         </tbody>

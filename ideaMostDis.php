@@ -15,12 +15,13 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                               ============================================= -->
                 <?php
                 include 'connect-db.php';
-                $query = "SELECT COUNT(thumbs_id) AS Dis, thumbsupdown.ideas_number, ideas_title, user_name FROM thumbsupdown
-left JOIN student_ideas ON thumbsupdown.ideas_number=student_ideas.ideas_number
-right join user on student_ideas.user_id = user.user_id
-WHERE thumbsupdown.type='0'
+        $query = "SELECT COUNT(thumbs_id) AS Dis, thumbsupdown.ideas_number, student_ideas.ideas_title, student_ideas.ideas_type, user.user_name 
+FROM thumbsupdown, student_ideas, user
+WHERE thumbsupdown.ideas_number=student_ideas.ideas_number
+AND student_ideas.user_id = user.user_id
+AND thumbsupdown.type='0'
 GROUP BY thumbsupdown.ideas_number
-ORDER BY thumbsupdown.ideas_number DESC";
+ORDER BY Dis DESC";
 
                 $result = mysqli_query($conn, $query);
                 ?>
@@ -53,7 +54,13 @@ ORDER BY thumbsupdown.ideas_number DESC";
                                                                                 <td>
                                                                                  <a href="ideaSingle.php?ideas_number=<?php echo $row['ideas_number']; ?>"><?= $row['ideas_title'] ?></a>
                                                                                 </td>
-                                                                                <td><?php echo $row["user_name"]; ?></td>
+                                                                    <td>
+                                                                            <?php if ($row["ideas_type"] == 1){
+                                                                                    echo "Anonymous";
+                                                                            } else {
+                                                                                    echo $row["user_name"];
+                                                                            }?>
+                                                                    </td>
                                                                                 <td><?php echo $row["Dis"]; ?></td>
 
 

@@ -74,7 +74,7 @@ VALUES ('$comment_description', '$comment_type', '$ideas_number', '$user_id')";
                         if ($_SESSION['user_role'] == 0) {
 
                                 /// the message
-                                $mail->Body = 'Dear ' . $user_name . ', Your comment has been posted successfully on this IDEA= (' . $ideas_title . ')';
+                                $mail->Body = 'Dear ' . $user_name . ',<br><br> Your comment has been posted successfully on this IDEA= (' . $ideas_title . ')';
 // notification
                                 $mail->addAddress($user_email, $user_name);
 
@@ -91,7 +91,7 @@ VALUES ('$comment_description', '$comment_type', '$ideas_number', '$user_id')";
 
                                 $mail2->addAddress($author_email, $author_name);
 
-                                $mail2->Body = 'Dear ' . $author_name . ', A comment has been added to your IDEA= (' . $ideas_title . ')';
+                                $mail2->Body = 'Dear ' . $author_name . ',<br><br> A comment has been added to your IDEA= (' . $ideas_title . ')';
 
 
                                 if (!$mail2->Send()) {
@@ -102,7 +102,7 @@ VALUES ('$comment_description', '$comment_type', '$ideas_number', '$user_id')";
 
                         } else if ($_SESSION['user_role'] != 0) {
                                 /// the message
-                                $mail->Body = 'Dear ' . $user_name . ', Your comment has been posted successfully on this IDEA= (' . $ideas_title . ')';
+                                $mail->Body = 'Dear ' . $user_name . ',<br><br> Your comment has been posted successfully on this IDEA= (' . $ideas_title . ')';
 // notification
                                 $mail->addAddress($user_email, $user_name);
 

@@ -12,15 +12,14 @@ if (isset($_SESSION['user_role']) && $_SESSION['user_role'] != 4) {
 //1. connect database
                 include 'connect-db.php';
                 //2. generate query to select all data from db table
-                $user_id = $_SESSION['user_id'];
+                 $user_id = $_SESSION['user_id'];
 
 $sql = "SELECT * FROM `user`, `department`, `user_role`
 WHERE user.user_role = user_role.user_role
 AND user.department_id =department.department_id
-AND user_id!=$user_id
-ORDER BY `user_role`.`user_role_name`  ASC";
+AND user.user_id!=$user_id
+ORDER BY user_role.user_role_name='Student'  DESC";
 
-// $sql2 = "SELECT * FROM user NOT IN (user_id='2')";
 
                 //3. execute query to get result
                 $resultSet = $conn->query($sql); ?>
@@ -89,7 +88,15 @@ ORDER BY `user_role`.`user_role_name`  ASC";
                                         <td><?= $row['department_name'] ?></td>
                                         <td><?= $row['user_role_name'] ?></td>
                                         <td><a href="userUpdate.php?user_id=<?= $row['user_id'] ?>">Update</td>
-                                        <td><a href="userDelete.php?user_id=<?= $row['user_id'] ?>">Remove</td>
+                                        <?php
+
+                                        if ($row['user_role'] !=0){ ?>
+                                          <td>Can't Remove</td>
+
+                                       <?php } else { ?>
+                                            <td><a href="userDelete.php?user_id=<?= $row['user_id'] ?>">Remove</a></td>
+                                      <?php  } ?>
+
                                     </tr>
                                 <?php } ?>
                                 </tbody>
