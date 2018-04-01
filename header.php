@@ -85,14 +85,22 @@
                                             echo "<li><a href=\"ideaSubmit.php\"><div>Submit Idea</div></a></li>";
 
 
-                                            //staff
+                                            //super visor
                                     } else if ($_SESSION["user_role"] == 1) {
                                             echo "<li><a href=\"index.php\"><div>Home</div></a></li>";
                                             echo "<li><a href=\"ideaListView.php\"><div>Browse Idea</div></a></li>";
 
-                                            //QA
+                                            //QAM
                                     } else if ($_SESSION["user_role"] == 2) {
                                             echo "<li><a href=\"index.php\"><div>Home</div></a></li>";
+                                            echo "<li><a href=\"ideaListView.php\"><div>BROWSE IDEAS</div></a>
+                                                        <ul>
+                                                            <li><a href=\"ideaMostView.php\"><div>Most Viewed Idea</div></a></li>
+                                                            <li><a href=\"ideaMostPop.php\"><div>Most Popular Idea</div></a></li>
+                                                            <li><a href=\"ideaMostDis.php\"><div>Most Disliked Idea</div></a></li>
+                                                            
+                                                        </ul>
+                                                     </li>";
                                             echo "<li><a href=\"categoryView.php\"><div>Manage Category</div></a>
                                                         <ul>
                                                             <li><a href=\"categoryView.php\"><div>CATEGORY LIST</div></a></li>
@@ -112,13 +120,21 @@
                                             ////QAC
                                     } else if ($_SESSION["user_role"] == 3) {
                                             echo "<li><a href=\"index.php\"><div>Home</div></a></li>";
-                                            echo "<li><a href=\"ideaListViewQAC.php\"><div>IDEA LIST</div></a></li>";
-                                            echo "<li><a href=\"sentEmail.php\"><div>Sent Email</div></a></li>";
-
+                                            echo "<li><a href=\"ideaListView.php\"><div>BROWSE IDEAS</div></a>
+                                                        <ul>
+                                                   
+                                                            <li><a href=\"ideaMostViewQAC.php\"><div>Most Viewed Idea</div></a></li>
+                                                            <li><a href=\"ideaMostPopQAC.php\"><div>Most Popular Idea</div></a></li>
+                                                            <li><a href=\"ideaMostDisQAC.php\"><div>Most Disliked Idea</div></a></li>
+                                                            
+                                                        </ul>
+                                                     </li>";
+                                            echo "<li><a href=\"ideaListViewQAC.php\"><div>Manage Idea</div></a></li>";
 
                                             //Admin
                                     } else if ($_SESSION["user_role"] == 4) {
                                             echo "<li><a href=\"index.php\"><div>Home</div></a></li>";
+                                            echo "<li><a href=\"ideaListView.php\"><div>Browse Idea</div></a></li>";
                                             echo "<li><a href=\"userManage.php\"><div>Manage User</div></a></li>";
                                     }
 

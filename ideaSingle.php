@@ -1,8 +1,6 @@
 <?php
 session_start();
-if (isset($_SESSION['user_role']) && $_SESSION['user_role'] != 0 && $_SESSION['user_role'] != 1 ){
-        include 'userRestrict.php';
-} else {
+
 include 'header.php';
 
 if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
@@ -305,4 +303,4 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
 }
 
 include 'footer.php';
-} ?>
+ ?>
