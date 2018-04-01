@@ -20,7 +20,7 @@
         <!-- Comment Form
 ============================================= -->
         <div id="respond" class="clearfix">
-                <form class="clearfix" action="ideaSingleComSQL.php" method="post" id="commentform">
+                <form class="clearfix" action="ideaComSQL.php" method="post" id="commentform">
                         <div class="clear"></div>
                         <div class="col_full">
                                         <textarea name="comment_description" cols="58" rows="7" tabindex="4"

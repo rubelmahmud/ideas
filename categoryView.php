@@ -88,7 +88,18 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                             <td><?php echo $row["ideas_closer_date"];?></td>
                             <td><?php echo $row["ideas_final_closer_date"];?></td>
                             <td><a href="categoryUpdate.php?category_id=<?= $row['category_id'] ?>">Update</td>
-                            <td><a href="categoryDelete.php?category_id=<?= $row['category_id'] ?>">Remove</td>
+
+                            <?php
+                            $catId = $row["category_id"];
+                             $sqlC = "SELECT * FROM student_ideas where category_id=$catId";
+                             $resultC = mysqli_query($conn, $sqlC);
+
+                             if (mysqli_num_rows($resultC)>0){ ?>
+                                <td>Can't Remove</td>
+                          <?php  } else { ?>
+                                 <td><a href="categoryDelete.php?category_id=<?= $row['category_id'] ?>">Remove</a></td>
+                        <?php  } ?>
+
                         </tr>
                         </tbody>
                            <?php

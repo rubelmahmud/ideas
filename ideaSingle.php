@@ -14,6 +14,14 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
 //2. generate query to select all data from db table
 
         $inum = $_GET['ideas_number'];
+        $uid=$_SESSION['user_id'];
+
+
+       $query="INSERT INTO page_views (ideas_number, user_id) VALUES ('$inum','$uid')";
+       $result=mysqli_query($conn,$query);
+
+       $query="DELETE t1 FROM page_views t1, page_views t2 WHERE t1.page_id<t2.page_id and t1.ideas_number=t2.ideas_number and t1.user_id=t2.user_id";
+       $result=mysqli_query($conn,$query);
 
 
         $sql = "SELECT * FROM student_ideas, user, category
@@ -82,6 +90,13 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                                 <?php } ?>
 
                             <li><i class="icon-tag"></i><?= $row['category_name'] ?></li>
+
+                        <?php $sql = "SELECT COUNT(ideas_number) AS Total FROM page_views WHERE ideas_number=$inum";
+
+                             $result = $conn->query($sql);
+                                foreach ($result as $rowV) { ?>
+                             <li><i class="icon-eye"></i><?= $rowV['Total'] ?></li>
+                            <?php } ?>
 
                         </ul><!-- .entry-meta end -->
 
@@ -278,7 +293,7 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
     <div id="disqus_thread"></div>
 
 
-    </div><!-- .postcontent end -->
+    </div><!-- .post content end -->
 
 
     </section><!-- #content end -->
