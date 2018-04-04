@@ -42,8 +42,8 @@ AND user.user_id =$uId";
 
             <div id="respond" class="clearfix">
 
-                <h3>Sent Email to <span>Student</span></h3>
-                <h5>My Department Wise (<?php echo $depN?>)</h5>
+                <h3>Send Email to <span>Student</span></h3>
+                <h5 style="color: orange;">My Department  ( <?php echo $depN?> )</h5>
                     <?php
                     if (isset($_SESSION['successEmail'])) {
                             ?>
@@ -87,8 +87,7 @@ AND user_role.user_role= '0'";
                     <div class="col_full">
                         <label for="comment">Email Body</label>
                         <textarea name="email_body" cols="58" rows="7" tabindex="4"
-                                  class="sm-form-control" required="required">
-                        </textarea>
+                                  class="sm-form-control" required="required"></textarea>
                     </div>
 
                     <div class="col_full nobottommargin">

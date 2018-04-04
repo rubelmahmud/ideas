@@ -38,7 +38,7 @@ AND student_ideas.user_id=user.user_id
 AND user.department_id=department.department_id
 AND department.department_id=$dep
 GROUP BY student_ideas.ideas_number
-ORDER BY total DESC";
+ORDER BY total DESC LIMIT 5";
 
                 $result = mysqli_query($conn, $query);
                 ?>
@@ -46,17 +46,17 @@ ORDER BY total DESC";
                 <section id="content">
                         <div class="content-wrap">
                                 <div class="container">
-                                        <h3 align="center">MOST IDEA VIEWED </h3>
-                                    <h5 align="center">My Department Wise (<?php echo $depN?>)</h5>
+                                        <h3 align="center" >MOST IDEA VIEWED </h3>
+                                    <h5 align="center" style="color: orange;">My Department ( <?php echo $depN?> )</h5>
                                         <br/>
                                         <div class="table-responsive">
-                                                <table id="idea_data" class="table table-striped table-bordered">
+                                                <table id="" class="table table-striped table-bordered">
                                                         <thead>
-                                                        <tr>
+                                                        <tr style="background-color: #1bbc9b; color: white;">
                                                                 <th>No.</th>
                                                                 <th>Idea Title</th>
                                                                 <th>Views</th>
-                                                                <th></th>
+                                                                
 
                                                         </tr>
                                                         </thead>

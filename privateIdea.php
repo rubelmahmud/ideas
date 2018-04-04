@@ -46,7 +46,7 @@ AND ideas_type='1'";
                                             <div class="table-responsive">
                                               <table class="table table-bordered nobottommargin">
                                                 <thead>
-                                                  <tr>
+                                                  <tr style="background-color: #1bbc9b; color: white;">
                                                     <th>No.</th>
                                                     <th>Idea</th>
                                                     <th>Category</th>

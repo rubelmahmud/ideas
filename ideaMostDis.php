@@ -21,7 +21,7 @@ WHERE thumbsupdown.ideas_number=student_ideas.ideas_number
 AND student_ideas.user_id = user.user_id
 AND thumbsupdown.type='0'
 GROUP BY thumbsupdown.ideas_number
-ORDER BY Dis DESC";
+ORDER BY Dis DESC LIMIT 5";
 
                 $result = mysqli_query($conn, $query);
                 ?>
@@ -32,14 +32,14 @@ ORDER BY Dis DESC";
                                         <h3 align="center">MOST DISLIKED IDEAS</h3>
                                         <br/>
                                         <div class="table-responsive">
-                                                <table id="idea_data" class="table table-striped table-bordered">
+                                                <table  class="table table-striped table-bordered">
                                                         <thead>
-                                                        <tr>
+                                                        <tr style="background-color: #1bbc9b; color: white;">
                                                                 <th>No.</th>
                                                                 <th>Idea Title</th>
                                                                 <th>Idea By</th>
                                                                 <th>Total Unlikes</th>
-                                                                <th></th>
+                                                                
 
                                                         </tr>
                                                         </thead>

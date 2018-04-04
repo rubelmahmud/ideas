@@ -22,9 +22,9 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                                 <div class="col-xl-7">
                                         <div style="position: relative; margin-bottom: -60px;" class="ohidden" data-height-xl="426"
                                              data-height-lg="567" data-height-md="470" data-height-md="287" data-height-xs="183">
-                                                <img src="images/blog/small/1.jpg" style="position: absolute; top: 0; left: 0;"
+                                                <img src="images/error.jpeg" style="position: absolute; top: 0; left: 0;" height="300"
                                                      data-animate="fadeInUp" data-delay="100" alt="Chrome">
-                                                <img src="images/blog/small/2.jpg" style="position: absolute; top: 0; left: 0;"
+                                                <img src="images/error.jpeg" style="position: absolute; top: 0; left: 0;" height="300"
                                                      data-animate="fadeInUp" data-delay="400" alt="iPad">
                                         </div>
                                 </div>

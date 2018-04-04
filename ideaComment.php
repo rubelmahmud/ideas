@@ -2,7 +2,7 @@
                   ============================================= -->
 <div id="comments" class="clearfix">
 
-        <h3 id="comments-title">Post Comment</h3>
+        <h3 id="comments-title"><span style="color: #008B8B; font-size: 25px;"> Post Comment </h3>
 
         <?php
         if (isset($_SESSION['successCom'])) {
@@ -24,8 +24,7 @@
                         <div class="clear"></div>
                         <div class="col_full">
                                         <textarea name="comment_description" cols="58" rows="7" tabindex="4"
-                                                  class="sm-form-control" required="required">
-                                        </textarea>
+                                                  class="sm-form-control" required="required"></textarea>
                         </div>
 
                         <div class="form-group">
@@ -48,6 +47,7 @@
         </div>
 
         <div class="clear"></div>
+		</br>
 
         <div class="col_full nobottommargin">
                 <button name="submit" type="submit" id="submit-button" tabindex="5" value="Submit"

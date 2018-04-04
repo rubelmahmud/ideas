@@ -32,7 +32,7 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                 ?>
 
 
-                <h4>Category List</h4>
+                <h4 align="center">Category List</h4>
                     <?php
                     if (isset($_SESSION['successDelete'])) {
                             ?>
@@ -62,7 +62,7 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                 <div class="table-responsive">
                     <table class="table table-bordered nobottommargin">
                         <thead>
-                        <tr>
+                        <tr style="background-color: #1bbc9b; color: white;">
                             <th>No.</th>
                             <th>Category Name</th>
                             <th>Description</th>
@@ -87,7 +87,7 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                             <td><?php echo $row["created_time"];?></td>
                             <td><?php echo $row["ideas_closer_date"];?></td>
                             <td><?php echo $row["ideas_final_closer_date"];?></td>
-                            <td><a href="categoryUpdate.php?category_id=<?= $row['category_id'] ?>">Update</td>
+                            <td><a href="categoryUpdate.php?category_id=<?= $row['category_id'] ?>"><center><div class="icon-edit"></div> Update</td>
 
                             <?php
                             $catId = $row["category_id"];
@@ -95,9 +95,9 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                              $resultC = mysqli_query($conn, $sqlC);
 
                              if (mysqli_num_rows($resultC)>0){ ?>
-                                <td>Can't Remove</td>
+                                <td style="color: red;"><center> Can't Remove (Used)</center></td>
                           <?php  } else { ?>
-                                 <td><a href="categoryDelete.php?category_id=<?= $row['category_id'] ?>">Remove</a></td>
+                                 <td><a href="categoryDelete.php?category_id=<?= $row['category_id'] ?>"><center><div class="icon-remove"></div> Remove</a></td>
                         <?php  } ?>
 
                         </tr>

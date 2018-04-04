@@ -25,7 +25,7 @@ if (isset($_SESSION['user_role']) && $_SESSION['user_role'] != 2) {
                     <?php include 'staticDrop.php' ?>
                 <div class="line"></div>
 
-                <h4>Static Reports</h4>
+                <h4 align="center">Static Report</h4>
                     <?php include "connect-db.php";
 
                     //                    Number Of Student
@@ -66,7 +66,8 @@ and department_name='L5DC'");
 
 
                 <div class="table-responsive">
-                    <table class="table table-bordered nobottommargin">
+                    <div align="right"><button onClick="window.print()" class="icon-print"> Print this page</button></div>
+                    <table class="table table-bordered nobottommargin" style="margin-top: 15px;">
 
                         <thead>
                         <tr>
@@ -84,7 +85,7 @@ and department_name='L5DC'");
 
                         <tbody>
                         <tr>
-                            <th>Number Of Student contribute</th>
+                            <th>Total Ideas and Comment  </th>
                             <td><?= $totalC ?></td>
                         </tr>
                         </tbody>
@@ -112,7 +113,7 @@ and department_name='L5DC'");
 
                 <div class="divider"><i class="icon-circle"></i></div>
 
-                <h3>Percentage Of department Contribution</h3>
+                <h3>Percentage Of Department Contribution</h3>
                     <?php
 
                     $resultConTo = $conn->query("SELECT count(*) as Total from comment");

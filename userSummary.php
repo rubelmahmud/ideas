@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if (isset($_SESSION['user_role']) && $_SESSION['user_role'] != 2) {
+if (isset($_SESSION['user_role']) && $_SESSION['user_role'] != 2 && $_SESSION['user_role'] != 4) {
         include 'userRestrict.php';
 } else {
 
@@ -50,14 +50,15 @@ $bitPercent = (100/$total) * $bit;
 
 ?>
 
+
                                 <div class="col_half center col_last nobottommargin">
                                     <b>BIT </b>
                                     <div class="rounded-skill nobottommargin" data-color="Red" data-size="200"
                                          data-percent="<?=$bitPercent?>"
-                                         data-width="3" data-speed="6500">
+                                         data-width="3" data-speed="1000">
                                         <div class="counter counter-inherit"><span data-from="0" data-to="<?=$bitPercent?>"
                                                                                    data-refresh-interval="50"
-                                                                                   data-speed="6000"></span>%
+                                                                                   data-speed="1000"></span>%
                                         </div>
                                     </div>
 
@@ -80,10 +81,10 @@ $bitPercent = (100/$total) * $bit;
                                     <B>L5DC</B>
                                     <div class="rounded-skill nobottommargin" data-color="blue" data-size="200"
                                          data-percent="<?=$l5dcPercent?>"
-                                         data-width="3" data-speed="6500">
+                                         data-width="3" data-speed="1000">
                                         <div class="counter counter-inherit"><span data-from="0" data-to="<?=$l5dcPercent?>"
                                                                                    data-refresh-interval="50"
-                                                                                   data-speed="6000"></span>%
+                                                                                   data-speed="1000"></span>%
                                         </div>
                                     </div>
                                 </div>
@@ -108,10 +109,10 @@ $bitPercent = (100/$total) * $bit;
                                     <b>L4DC</b>
                                     <div class="rounded-skill nobottommargin" data-color="green" data-size="200"
                                          data-percent="<?=$l4dcPercent?>"
-                                         data-width="3" data-speed="6500">
+                                         data-width="3" data-speed="1000">
                                         <div class="counter counter-inherit"><span data-from="0" data-to="<?=$l4dcPercent?>"
                                                                                    data-refresh-interval="50"
-                                                                                   data-speed="6000"></span>%
+                                                                                   data-speed="1000"></span>%
                                         </div>
                                     </div>
                                 </div>
@@ -130,12 +131,12 @@ $bitPercent = (100/$total) * $bit;
                                     ?>
                                 <div class="col_half center col_last nobottommargin">
                                     <b>IFY</b>
-                                    <div class="rounded-skill nobottommargin" data-color="yellow" data-size="200"
+                                    <div class="rounded-skill nobottommargin" data-color="orange" data-size="200"
                                          data-percent="<?= $ifyPercent ?>"
-                                         data-width="3" data-speed="6500">
+                                         data-width="3" data-speed="1000">
                                         <div class="counter counter-inherit"><span data-from="0" data-to="<?= $ifyPercent ?>"
                                                                                    data-refresh-interval="50"
-                                                                                   data-speed="6000"></span>%
+                                                                                   data-speed="1000"></span>%
                                         </div>
                                     </div>
                                 </div>
@@ -153,14 +154,15 @@ $bitPercent = (100/$total) * $bit;
 
                                     ?>
                                 <br>
+                                <div class="line"></div>
                                 <div class="col_half center col_last nobottommargin">
                                     <b>Employee/Staff</b>
                                     <div class="rounded-skill nobottommargin" data-color="yellow" data-size="200"
                                          data-percent="<?= $ifyPercent ?>"
-                                         data-width="3" data-speed="6500">
+                                         data-width="3" data-speed="1000">
                                         <div class="counter counter-inherit"><span data-from="0" data-to="<?= $ifyPercent ?>"
                                                                                    data-refresh-interval="50"
-                                                                                   data-speed="6000"></span>%
+                                                                                   data-speed="1000"></span>%
                                         </div>
                                     </div>
                                 </div>

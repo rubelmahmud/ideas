@@ -62,9 +62,9 @@ ORDER BY user_role.user_role_name='Student'  DESC";
                             }
                             ?>
                         <div class="table-responsive">
-                            <table class="table table-bordered nobottommargin">
+                            <table class="table table-bordered nobottommargin" id="manage_user" style="margin-top: 15px;">
                                 <thead>
-                                <tr>
+                                <tr style="background-color: #1bbc9b; color: white;">
                                     <th>No.</th>
                                     <th>Name</th>
                                     <th>Email</th>
@@ -136,4 +136,13 @@ ORDER BY user_role.user_role_name='Student'  DESC";
             window.location.href = 'userDelete.php?user_id=' + id;
         }
     }
+</script>
+
+<script>
+    $(document).ready(function(){
+        $('#manage_user').DataTable({
+            "pageLength": 10
+            // "lengthChange": false
+        });
+    });
 </script>

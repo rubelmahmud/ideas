@@ -48,7 +48,7 @@ And comment_type ='1'";
                 <div class="table-responsive">
                     <table class="table table-bordered nobottommargin">
                         <thead>
-                        <tr>
+                        <tr style="background-color: #1bbc9b; color: white;">
                             <th>No.</th>
                             <th>Comment</th>
                             <th>Comment Date</th>

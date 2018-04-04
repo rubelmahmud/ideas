@@ -29,18 +29,20 @@ ORDER BY student_ideas.posted_time DESC ";
             <section id="content">
                 <div class="content-wrap">
                     <div class="container">
-                        <h4>Download Zip File</h4>
+                        <h4>Download Idea Supporting Document</h4>
 
                         <div class="table-responsive">
-                            <table class="table table-bordered nobottommargin">
+                            <table class="table table-bordered nobottommargin" id="" style="margin-top: 15px; margin-bottom: 15px; width: 1000px;">
                                 <thead>
-                                <tr>
+                                <tr style="background-color: #1bbc9b; color: white;">
                                     <th>No.</th>
                                     <th>Idea Title</th>
+
                                     <th>Category</th>
                                     <th>Idea Posted</th>
                                     <th>Idea By</th>
                                     <th>Attachment</th>
+
                                 </tr>
                                 </thead>
                                     <?php
@@ -64,7 +66,7 @@ ORDER BY student_ideas.posted_time DESC ";
                                                                     echo $row["user_name"];
                                                             }?>
                                                     </td>
-                                                    <td><a href="<?php echo $row['file']; ?>">Download</a></td>
+                                                    <td><a href="<?php echo $row['file']; ?>"><div class="icon-download"></div> Download</a></td>
                                                 </tr>
                                                 </tbody>
                                                     <?php
@@ -100,3 +102,12 @@ ORDER BY student_ideas.posted_time DESC ";
         content: counter(Serial); /* Display the counter */
     }
 </style>
+
+<script>
+    $(document).ready(function(){
+        $('#download_zip').DataTable({
+            "pageLength": 10
+            // "lengthChange": false
+        });
+    });
+</script>

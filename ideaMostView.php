@@ -20,7 +20,7 @@ FROM page_views, student_ideas,user
 WHERE page_views.ideas_number=student_ideas.ideas_number
 AND student_ideas.user_id=user.user_id
 GROUP BY student_ideas.ideas_number
-ORDER BY total DESC";
+ORDER BY total DESC LIMIT 5";
 
                 $result = mysqli_query($conn, $query);
                 ?>
@@ -28,17 +28,17 @@ ORDER BY total DESC";
                 <section id="content">
                         <div class="content-wrap">
                                 <div class="container">
-                                        <h3 align="center">MOST IDEA VIEWED</h3>
+                                        <h3 align="center">MOST VIEWED IDEA </h3>
                                         <br/>
                                         <div class="table-responsive">
-                                                <table id="idea_data" class="table table-striped table-bordered">
+                                                <table class="table table-striped table-bordered" style="margin-top: 15px;">
                                                         <thead>
-                                                        <tr>
+                                                        <tr style="background-color: #1bbc9b; color: white;">
                                                                 <th>No.</th>
                                                                 <th>Idea Title</th>
                                                                 <th>Idea By</th>
                                                                 <th>Views</th>
-                                                                <th></th>
+                                                                
 
                                                         </tr>
                                                         </thead>
@@ -84,8 +84,8 @@ ORDER BY total DESC";
 
 <script>
     $(document).ready(function(){
-        $('#idea_data').DataTable({
-            "pageLength": 5
+        $('#most_view').DataTable({
+            "pageLength": 10
             // "lengthChange": false
         });
     });

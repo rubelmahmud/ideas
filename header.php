@@ -65,8 +65,9 @@
                 <div id="logo">
                     <a href="index.php" class="standard-logo" data-dark-logo="images/logo-dark2.png"><img
                                 src="images/logo2.png" alt="Canvas Logo"></a>
-                    <a href="index.php" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img
-                                src="images/logo@2x.png" alt="Canvas Logo"></a>
+                                
+                    <a href="index.php" class="retina-logo" data-dark-logo="images/logo-dark2.png"><img
+                                src="images/logo2.png" alt="Canvas Logo"></a>
                 </div><!-- #logo end -->
 
                 <!-- Primary Navigation
@@ -122,11 +123,10 @@
                                             echo "<li><a href=\"index.php\"><div>Home</div></a></li>";
                                             echo "<li><a href=\"ideaListView.php\"><div>BROWSE IDEAS</div></a>
                                                         <ul>
-                                                            <li><a href=\"ideaMostViewQAC.php\"><div>Manage Ideas</div></a></li>
+                                                            <li><a href=\"ideaListViewQAC.php\"><div>Manage Ideas</div></a></li>
                                                             <li><a href=\"ideaMostViewQAC.php\"><div>Most Viewed Ideas</div></a></li>
                                                             <li><a href=\"ideaMostPopQAC.php\"><div>Most Popular Ideas</div></a></li>
                                                             <li><a href=\"ideaMostDisQAC.php\"><div>Most Disliked Ideas</div></a></li>
-                                                            
                                                         </ul>
                                                      </li>";
                                             echo "<li><a href=\"sentEmail.php\"><div>Send Email</div></a></li>";
@@ -135,7 +135,11 @@
                                     } else if ($_SESSION["user_role"] == 4) {
                                             echo "<li><a href=\"index.php\"><div>Home</div></a></li>";
                                             echo "<li><a href=\"ideaListView.php\"><div>Browse Idea</div></a></li>";
-                                            echo "<li><a href=\"userManage.php\"><div>Manage User</div></a></li>";
+                                            echo "<li><a href=\"userManage.php\"><div>Manage User</div></a>
+                                                        <ul>
+                                                            <li><a href=\"userSummary.php\"><div>USER SUMMARY</div></a></li>
+                                                        </ul>
+                                                     </li>";
                                     }
 
                                     // welcome user
@@ -156,12 +160,12 @@
                                             </a>
                                             <ul>
                                                 <li><a href="userProfile.php">
-                                                        <div style="text-transform: uppercase"><br> Welcome <strong><?= $row['user_name'] ?> </strong>
-                                                            <br> (<?= $row['user_role_name'] ?>)
+                                                        <div style="text-transform: uppercase;"><br> Welcome <strong><?= $row['user_name'] ?> </strong>
+                                                            <br> ( <?= $row['user_role_name'] ?> )
                                                         </div>
                                                     </a></li>
                                                 <li><a href="logout.php?u=done">
-                                                        <div>LOGOUT</div>
+                                                        <div style="color: #FF0000;">LOGOUT</div>
                                                     </a></li>
                                             </ul>
 

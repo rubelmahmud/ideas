@@ -1,6 +1,6 @@
 <div class="dropdown col_full">
     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Choose a department
+    Choose a Department
     </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="staticBit.php">BIT</a>

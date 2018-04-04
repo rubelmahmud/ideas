@@ -3,11 +3,12 @@
                 <div class="container">
                         <h3 align="center">MY IDEA LIST</h3>
                         <br/>
+                        
                         <div class="table-responsive">
-                                <table id="idea_data" class="table table-striped table-bordered">
-                                        <thead>
-                                        <tr>
 
+                                <table id="idea_data" class="table table-striped table-bordered" style="margin-top: 15px;">
+                                        <thead>
+                                        <tr style="background-color: #1bbc9b; color: white;">
                                                 <th>Idea Title</th>
                                                 <th>Idea Description</th>
                                                 <th>Category</th>

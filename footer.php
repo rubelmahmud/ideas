@@ -10,6 +10,7 @@
 
 					<div class="col_half">
 						Copyrights &copy; 2018 All Rights Reserved by IDEA<br>
+						Develop by TEAM-X<br>
 						<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
 					</div>
 
@@ -58,7 +59,7 @@
 
 						<div class="clear"></div>
 
-						<i class="icon-envelope2"></i> info@idea.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +91-11-6541-6369 <span class="middot">&middot;</span> <i class="icon-skype2"></i> IdeaOnSkype
+						<i class="icon-envelope2"></i> info@ideaportal.rubelmahmud.me <span class="middot"></span>
 					</div>
 
 				</div>

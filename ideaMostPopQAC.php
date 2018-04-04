@@ -36,7 +36,7 @@ WHERE department.department_id=$dep
 AND thumbsupdown.type='1'
 
 GROUP BY thumbsupdown.ideas_number
-ORDER BY Pop DESC";
+ORDER BY Pop DESC LIMIT 5";
 
                 $result = mysqli_query($conn, $query);
                 ?>
@@ -45,16 +45,16 @@ ORDER BY Pop DESC";
                         <div class="content-wrap">
                                 <div class="container">
                                         <h3 align="center">MOST POPULAR IDEAS</h3>
-                                    <h5 align="center">My Department Wise (<?php echo $depN?>)</h5>
+                                    <h5 align="center" style="color: orange;">My Department  ( <?php echo $depN?> )</h5>
                                         <br/>
                                         <div class="table-responsive">
-                                                <table id="idea_data" class="table table-striped table-bordered">
+                                                <table id="" class="table table-striped table-bordered">
                                                         <thead>
-                                                        <tr>
+                                                        <tr style="background-color: #1bbc9b; color: white;">
                                                                 <th>No.</th>
                                                                 <th>Idea Title</th>
                                                                 <th>Total Likes</th>
-                                                                <th></th>
+                                                                
 
                                                         </tr>
                                                         </thead>

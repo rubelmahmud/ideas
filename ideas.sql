@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 01, 2018 at 11:32 PM
+-- Generation Time: Apr 04, 2018 at 11:09 AM
 -- Server version: 10.1.30-MariaDB
 -- PHP Version: 7.2.1
 
@@ -42,12 +42,12 @@ CREATE TABLE `category` (
 --
 
 INSERT INTO `category` (`category_id`, `category_name`, `category_desc`, `ideas_closer_date`, `ideas_final_closer_date`, `created_time`) VALUES
-(2, 'Library', 'A', '2018-04-11', '2018-05-01', '2018-03-14'),
-(3, 'Sports', 'B', '2018-04-20', '2018-05-05', '2018-03-19'),
-(5, 'Education', 'D', '2018-03-20', '2018-04-20', '2018-03-19'),
-(6, 'Club', ' Club Club Club                                                ', '2018-05-01', '2018-05-05', '2018-03-19'),
-(10, 'Neve Miles', 'AAAAAAA   F AAAA                        ', '2018-05-02', '2018-06-13', '2018-03-16'),
-(11, 'Programming Club', 'programing contest, workshop', '2018-04-05', '2018-06-01', '2018-04-02');
+(19, 'ICT FEST', 'Dear Student, We are thinking about to arrange an ICT FEST. We want to know your expectation from th', '2018-04-14', '2018-04-25', '2018-04-04'),
+(20, 'CULTURAL PROGRAM ', '14th April 2018 is the 1st day of Bangla 1425 New Year. We are going to arrange some cultural progra', '2018-04-12', '2018-04-28', '2018-04-04'),
+(21, 'CRICKET TOURNAMENT', 'A cricket tournament will be arrange on May. Provide all of your idea... ', '2018-04-12', '2018-05-10', '2018-04-04'),
+(22, 'Library', 'We are going to renovate our institute Library. We will think about all of your choice.', '2018-04-04', '2018-04-21', '2018-04-04'),
+(23, 'Institute Website', 'Share your Opinion and Idea about our Institute Website', '2018-06-08', '2018-07-11', '2018-04-04'),
+(24, 'Sports', 'Sports events need to be organized as regular basis.', '2018-04-06', '2018-04-30', '2018-04-04');
 
 -- --------------------------------------------------------
 
@@ -69,37 +69,8 @@ CREATE TABLE `comment` (
 --
 
 INSERT INTO `comment` (`comment_id`, `comment_description`, `comment_time`, `comment_type`, `ideas_number`, `user_id`) VALUES
-(54, 'Hi', '2018-03-25 03:18:09', 0, 47, 6),
-(58, 'comment', '2018-03-26 07:44:48', 0, 46, 6),
-(59, 'Anno comment                      ', '2018-03-26 07:44:56', 1, 46, 6),
-(71, 'Who Am I ?                                     ', '2018-03-26 14:15:47', 0, 47, 5),
-(73, 'Comment                      ', '2018-03-27 09:10:58', 0, 53, 5),
-(74, 'STD                                    ', '2018-03-27 09:12:58', 0, 53, 6),
-(76, 'Cool              ', '2018-03-28 07:51:44', 0, 46, 17),
-(77, 'i am not naim         ', '2018-03-28 07:52:12', 1, 46, 17),
-(78, 'hey           ', '2018-03-30 13:50:45', 0, 80, 6),
-(79, 'hello                        ', '2018-03-30 13:50:53', 1, 80, 6),
-(80, 'File is not att                        ', '2018-03-30 18:42:02', 0, 82, 20),
-(81, 'Awesome', '2018-03-30 18:51:21', 0, 82, 20),
-(82, 'testssss                                        ', '2018-03-30 18:52:44', 0, 82, 20),
-(83, 'testssss                                        ', '2018-03-30 18:56:14', 0, 82, 20),
-(84, 'testssss                                        ', '2018-03-30 18:56:36', 0, 82, 20),
-(85, 'testssss                                        ', '2018-03-30 18:57:13', 0, 82, 20),
-(86, 'testssss                                        ', '2018-03-30 18:58:59', 0, 82, 20),
-(87, 'testssss                                        ', '2018-03-30 18:59:50', 0, 82, 20),
-(88, 'testssss                                        ', '2018-03-30 19:00:20', 0, 82, 20),
-(89, 'Mail sending                                        ', '2018-03-30 19:04:01', 0, 82, 20),
-(90, 'ttttttttt', '2018-03-30 19:14:11', 0, 80, 20),
-(91, 'ttttttttt', '2018-03-30 19:14:47', 0, 80, 20),
-(92, 'aaaaaaaaa', '2018-03-30 19:18:03', 0, 80, 20),
-(93, 'aaaaaaaaa', '2018-03-30 19:18:39', 0, 80, 20),
-(113, 'test', '2018-04-01 13:56:12', 0, 104, 20),
-(114, 'Pro test Ano        ', '2018-04-01 20:01:47', 1, 105, 22),
-(115, 'Pro test     ', '2018-04-01 20:02:56', 0, 105, 22),
-(116, 'test test             ', '2018-04-01 20:05:03', 0, 105, 5),
-(117, 'supervisor staff comment         ', '2018-04-01 20:05:41', 0, 105, 5),
-(118, 'QAM comm                 ', '2018-04-01 20:07:11', 0, 105, 7),
-(119, 'anno QAM           ', '2018-04-01 20:16:54', 0, 105, 7);
+(124, 'Please, everyone raise your voice according to this issue. ', '2018-04-04 08:04:24', 0, 108, 26),
+(125, 'I am agree', '2018-04-04 08:55:29', 0, 108, 5);
 
 -- --------------------------------------------------------
 
@@ -140,27 +111,10 @@ CREATE TABLE `page_views` (
 --
 
 INSERT INTO `page_views` (`page_id`, `ideas_number`, `user_id`) VALUES
-(5, 100, 6),
-(14, 82, 20),
-(25, 80, 20),
-(26, 100, 7),
-(31, 80, 7),
-(34, 100, 8),
-(35, 82, 8),
-(36, 80, 8),
-(37, 53, 8),
-(43, 53, 25),
-(45, 53, 17),
-(47, 102, 25),
-(56, 102, 20),
-(65, 104, 20),
-(68, 53, 16),
-(69, 80, 16),
-(70, 82, 16),
-(71, 46, 16),
-(84, 105, 22),
-(85, 105, 7),
-(86, 105, 5);
+(154, 107, 26),
+(179, 108, 26),
+(180, 108, 7),
+(183, 108, 5);
 
 -- --------------------------------------------------------
 
@@ -184,16 +138,8 @@ CREATE TABLE `student_ideas` (
 --
 
 INSERT INTO `student_ideas` (`ideas_number`, `ideas_title`, `ideas_description`, `ideas_type`, `posted_time`, `file`, `category_id`, `user_id`) VALUES
-(46, 'Rubel s idea', 'Nisl quae inventore tempora lobortis habitant ducimus vitae! Feugiat officia dui unde maiores fermentum incididunt? \r\nAsperiores, justo dictum, , sint ', 0, '2018-03-18 00:51:23', NULL, 2, 6),
-(47, 'It\'s test', 'wefrgtyuki', 0, '2018-03-25 00:48:00', NULL, 2, 15),
-(53, 'IDEA', 'IDEAIDEAIDEAIDEA', 0, '2018-03-27 09:06:50', NULL, 3, 13),
-(80, 'idea is a an idea', 'aaaaaaaaaaaaaa', 0, '2018-03-30 13:49:22', NULL, 2, 6),
-(82, 'Test without file', 'dessss      ', 0, '2018-03-30 17:24:00', NULL, 3, 6),
-(100, 'Earum eiusmod ex recusandae Omnis consectetur', 'Non mollit molestiae molestiae sed amet', 0, '2018-03-30 18:36:16', 'uploadFileZip/1522434975.zip', 3, 20),
-(102, 'IFY IDEA', 'IFY IDEAaaaaa                    ', 0, '2018-04-01 11:55:18', NULL, 2, 25),
-(103, 'Dignissimos expedita amet consectetur laborum Eius', 'Et nostrud repellendus Unde enim in quasi deserunt ea', 0, '2018-04-01 13:52:13', 'uploadFileZip/1522590733.zip', 3, 20),
-(104, 'Et eum eligendi impedit omnis quae architecto mini', 'A iste voluptas qui accusantium', 0, '2018-04-01 13:55:49', NULL, 6, 20),
-(105, 'Pro test Ano', 'Pro test Ano Pro test Ano Pro test Ano Pro test Ano', 1, '2018-04-01 19:59:30', 'uploadFileZip/1522612770.zip', 6, 22);
+(107, 'Tournament  Venue', 'Our Tournament venue could be Mirpur Sher-e Bangla Stadium ', 0, '2018-04-04 07:10:30', NULL, 21, 26),
+(108, 'Freelancing workshop', 'Programming club should arrange freelancing workshop on upcoming ICT Fest.', 0, '2018-04-04 08:03:06', 'uploadFileZip/1522828986.zip', 19, 26);
 
 -- --------------------------------------------------------
 
@@ -214,18 +160,9 @@ CREATE TABLE `thumbsupdown` (
 --
 
 INSERT INTO `thumbsupdown` (`thumbs_id`, `type`, `user_id`, `ideas_number`, `thumbs_time`) VALUES
-(2, 1, 6, 53, '2018-03-28 07:39:14'),
-(4, 1, 17, 46, '2018-03-28 07:51:35'),
-(5, 1, 20, 82, '2018-03-30 18:41:53'),
-(6, 1, 20, 80, '2018-03-30 19:17:59'),
-(13, 0, 7, 80, '2018-04-01 10:59:22'),
-(14, 0, 16, 80, '2018-04-01 19:51:22'),
-(15, 0, 16, 53, '2018-04-01 19:56:45'),
-(16, 1, 16, 82, '2018-04-01 19:57:35'),
-(17, 1, 16, 46, '2018-04-01 19:57:37'),
-(18, 1, 22, 105, '2018-04-01 19:59:56'),
-(19, 1, 5, 105, '2018-04-01 20:06:07'),
-(20, 0, 7, 105, '2018-04-01 20:16:41');
+(25, 1, 26, 108, '2018-04-04 08:03:50'),
+(26, 1, 7, 108, '2018-04-04 08:40:09'),
+(27, 0, 5, 108, '2018-04-04 08:55:19');
 
 -- --------------------------------------------------------
 
@@ -250,24 +187,35 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`user_id`, `user_name`, `user_role`, `user_email`, `user_pass`, `user_address`, `user_phone`, `user_photo`, `department_id`) VALUES
-(5, 'Mr Shiplu Sinha', 1, 'super@gmail.com', '123', 'Dhaka', '5654656', 'images/author/rsz_ava.png', 5),
-(6, 'Mr Student', 0, 'std@gmail.com', '123', 'dhaka', '01912311291', 'images/author/avatar.png', 1),
-(7, 'Mr Sarwar Molla', 2, 'qam@gmail.com', '123', 'Dhaka', '34653456', 'images/author/rsz_ava.png', 5),
-(8, 'Mrs Nazrana Haque', 3, 'qac@gmail.com', '123', 'Dhaka', '566346', 'images/author/rsz_ava.png', 2),
-(9, 'Mr Admin', 4, 'admin@gmail.com', '123', 'Dhaka', '36565656', 'images/author/rsz_ava.png', 5),
-(10, 'Mr Naim', 0, 'naimpabna@gmail.com', '123', 'Dhaka', '6366', 'images/author/rsz_ava.png', 1),
-(13, 'Rubel Mahmud', 0, 'rubel@yahoo.com', '123', 'Dhaka', '36636', 'images/author/rsz_ava.png', 1),
-(15, 'Zahid', 0, 'zasoilu@gmail.com', '123', 'uyiguohijpok', '4567890', 'images/author/avatar.png', 1),
-(16, 'Mr Mustafizur Rahman', 3, 'qac2@gmail.com', '123', 'qDhaka', '36463', 'images/author/rsz_ava.png', 1),
-(17, 'Mr Ali Imran', 3, 'qac4@gmail.com', '123', 'sdfghyju', '234567', 'images/author/1.jpg', 4),
-(18, 'Mrs Nayema Rahman', 3, 'qac3@gmail.com', '123', 'sdfgdgdg', '242344', 'images/author/rsz_ava.png', 3),
-(19, 'photo test', 0, 'ppp@gmail.com', '123', 'dhaka', '23245', 'images/author/rsz_ava.png', 3),
-(20, 'Rubel', 0, 'rubelmahmuud21@gmail.com', '12345', 'Jurain', '2324242424', 'images/author/avatar.png', 3),
-(21, 'Enamul', 0, 'enamul2109@gmail.com', '123', 'asasdad', '22424242424', 'images/author/rsz_ava.png', 1),
-(22, 'RM Pro', 0, 'rmpro2021@gmail.com', '123', 'Dhaka', '123456789', 'images/author/rsz_ava.png', 1),
-(23, 'Kawsar', 0, 'prokawsar@gmail.com', '123', 'Mdpur', '34567890456', 'images/author/rsz_ava.png', 1),
-(24, 'Naim', 0, 'abc@gmail.com', '123', 'dhaka', '12345678', 'images/author/rsz_ava.png', 2),
-(25, 'Foysal fy', 0, 'ify@gmail.com', '123', 'dhfjgkh', '565768', 'images/author/rsz_ava.png', 4);
+(5, 'Mr Shiplu Sinha', 1, '1000191@daffodil.ac', '123', 'Chasara, Narayanganj', '01756838467', 'images/author/s.jpg', 5),
+(7, 'Mr Sarwar Hossain Mollah', 2, 'gmailwhy@yahoo.com', '123', 'Chondra, Gazipur', '01911323179', 'images/author/sm.jpg', 5),
+(8, 'Ms. Nazrana Haque', 3, '14thnovember2014@gmail.com', '123', '12, Tejgaon, Dhaka-1210', '01670167319', 'images/author/nj.jpg', 2),
+(9, 'Mr Nuruzzaman', 4, 'admin@gmail.com', '123', 'Dhaka', '36565656', 'images/author/nuru.jpg', 5),
+(16, 'Mr Mustafizur Rahman', 3, 'gmailrahman@yahoo.com', '123', '48, Mohammadpur,Dhaka- 1212', '01912974881', 'images/author/m.jpg', 1),
+(17, 'Mr Ali Imran', 3, 'mahmudur35@diit.info', '123', '23, Kazipara, Mirpur 10 , Dhaka- 1205', '01713493254', 'images/author/i.jpg', 4),
+(18, 'Ms. Nayeema Rahman', 3, 'afteryou000005@gmail.com', '123', 'House no. 10, K - Block, Bonosree, Dhaka- 1210', '01552303556', 'images/author/n.jpg', 3),
+(26, 'Mahmudur Rahman', 0, 'mahmudbabu007@gmail.com', '123', 'East Razabazar, Dhaka - 1215', '01829605079', 'images/author/samir.jpg', 1),
+(27, 'Samir Mahmud', 0, 'digitalhacker2014@gmail.com', '123', '2/9 , Panthapath, Dhaka- 1214', '01756838467', 'images/author/rsz_ava.png', 2),
+(28, 'Rubel Mahmud', 0, 'rmpro2021@gmail.com', '123', 'Jurain, Dhaka - 1202', '01912311291', 'images/author/rsz_ava.png', 1),
+(29, 'Enamul Haque', 0, 'enamul2109@gmail.com', '123', 'kolabagan, Noakhali', '01912311291', 'images/author/rsz_ava.png', 4),
+(30, 'Robiul Hasan', 0, 'enamul2177@gmail.com', '123', 'lichubagan, Dhaka-1219', '01912311291', 'images/author/rsz_ava.png', 3),
+(31, 'Rubel Sarkar', 0, 'rubelmahmuud21@gmail.com', '123', 'Jatrabari , Dhaka -1200', '01756838467', 'images/author/rsz_ava.png', 3),
+(32, 'Shakibal Hasan', 0, '1000173@daffodil.ac', '123', 'Mirour-10 ,Dhaka_1218', '01829605079', 'images/author/rsz_ava.png', 3),
+(33, 'MAsrafe mortaza', 0, 'pkhogiya@gmail.com', '123', 'Narail, Khulna', '01756838467', 'images/author/rsz_ava.png', 1),
+(34, 'Tamim Iqbal', 0, 'mochenabird@gmail.com', '123', 'Chotrrogram', '01912311291', 'images/author/rsz_ava.png', 4),
+(35, 'Zahid Hasan', 0, 'zahidbit37@gmail.com', '123', 'West rajabazar, Dhaka - 1205', '01912311291', 'images/author/rsz_ava.png', 2),
+(36, 'Nasir Hossain', 0, 'zasoilu@gmail.com', '123', 'Kathalbagan , Dhak-1208', '01756838467', 'images/author/rsz_ava.png', 2),
+(37, 'Humaina Afreen', 0, '21stfebruary2016@gmail.com', '123', 'Dhanmondo, Dhaka - 1214', '01912311291', 'images/author/rsz_ava.png', 3),
+(38, 'Sabbir Rahman', 0, 'MAMUDBABU007@yahoo.com.au', '123', 'Noakhali', '01756838467', 'images/author/rsz_ava.png', 4),
+(39, 'Fokhrul Bepari', 0, 'testing1@gmail.com', '123', 'Dhaka - 1218', '01912311291', 'images/author/rsz_ava.png', 1),
+(40, 'Sadman Ahmed', 0, 'testing2@gmail.com', '123', 'Khulna', '01756838467', 'images/author/rsz_ava.png', 2),
+(41, 'Rayhan Mahmud', 0, 'testing3@gmail.com', '123', 'Madaripur', '01912311291', 'images/author/rsz_ava.png', 2),
+(42, 'Shahed Durzoy', 0, 'testing4@gmail.com', '123', 'Borishal', '01912311291', 'images/author/rsz_ava.png', 2),
+(43, 'Nahid Islam', 0, 'testing5@gmail.com', '123', 'Borishal', '01756838467', 'images/author/rsz_ava.png', 3),
+(44, 'Mahadi Hasan', 0, 'testing6@gmail.com', '123', 'Jashore', '01912311291', 'images/author/rsz_ava.png', 4),
+(45, 'Sadia ', 0, 'testing7@gmail.com', '123', 'khulna', '01756838467', 'images/author/rsz_ava.png', 4),
+(46, 'Foysal Ahmed', 0, 'testing8@gmail.com', '123', 'Kumilla', '01912311291', 'images/author/rsz_ava.png', 3),
+(47, 'Kazi Sajid', 0, 'testing9@gmail.com', '123', 'Khulna', '01756838467', 'images/author/rsz_ava.png', 2);
 
 -- --------------------------------------------------------
 
@@ -363,13 +311,13 @@ ALTER TABLE `user_role`
 -- AUTO_INCREMENT for table `category`
 --
 ALTER TABLE `category`
-  MODIFY `category_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `category_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT for table `comment`
 --
 ALTER TABLE `comment`
-  MODIFY `comment_id` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=120;
+  MODIFY `comment_id` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=126;
 
 --
 -- AUTO_INCREMENT for table `department`
@@ -381,25 +329,25 @@ ALTER TABLE `department`
 -- AUTO_INCREMENT for table `page_views`
 --
 ALTER TABLE `page_views`
-  MODIFY `page_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=87;
+  MODIFY `page_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=184;
 
 --
 -- AUTO_INCREMENT for table `student_ideas`
 --
 ALTER TABLE `student_ideas`
-  MODIFY `ideas_number` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=106;
+  MODIFY `ideas_number` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=109;
 
 --
 -- AUTO_INCREMENT for table `thumbsupdown`
 --
 ALTER TABLE `thumbsupdown`
-  MODIFY `thumbs_id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `thumbs_id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 
 --
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `user_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `user_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=48;
 
 --
 -- Constraints for dumped tables

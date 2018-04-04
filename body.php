@@ -1,35 +1,6 @@
 <!-- Content
 		============================================= -->
-<section id="content">
 
-    <div class="content-wrap">
-
-        <div class="container clearfix">
-            <div class="row clearfix">
-
-                <div class="col-xl-5">
-                    <div class="heading-block topmargin">
-                        <h1>Welcome to <br>IDEA Portal</h1>
-                    </div>
-                    <p class="lead">Submit your IDEA to make the campus beatiful &amp; perfect more!.</p>
-                </div>
-
-                <div class="col-xl-7">
-
-                    <div style="position: relative; margin-bottom: -60px;" class="ohidden" data-height-xl="426"
-                         data-height-lg="567" data-height-md="470" data-height-md="287" data-height-xs="183">
-                        <img src="images/blog/small/1.jpg" style="position: absolute; top: 0; left: 0;"
-                             data-animate="fadeInUp" data-delay="100" alt="Chrome">
-                        <img src="images/blog/small/2.jpg" style="position: absolute; top: 0; left: 0;"
-                             data-animate="fadeInUp" data-delay="400" alt="iPad">
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
 <?php  include 'connect-db.php';
 ?>
 
@@ -40,8 +11,8 @@
         <div class="container clearfix">
             <div class="col_full">
                 <div class="heading-block center nobottomborder">
-                    <h2>Student Contribution</h2>
-                    <span>Here is student contribution statistics</span>
+                    <h2 style="color: #800000;"> CONTRIBUTION STATISTICS</h2>
+                   
                 </div>
 
                     <?php
@@ -86,7 +57,7 @@
                 </div>
 
                 <div class="col_one_fourth center" data-animate="bounceIn" data-delay="200">
-                    <i class="i-plain i-xlarge divcenter nobottommargin icon-code"></i>
+                    <i class="i-plain i-xlarge divcenter nobottommargin icon-cloud"></i>
                     <div class="counter counter-large" style="color: #e74c3c;"><span data-from="0" data-to="<?= $totalCo ?>"
                                                                                      data-refresh-interval="50"
                                                                                      data-speed="2500"></span>
@@ -95,7 +66,7 @@
                 </div>
 
                 <div class="col_one_fourth center" data-animate="bounceIn" data-delay="400">
-                    <i class="i-plain i-xlarge divcenter nobottommargin icon-briefcase"></i>
+                    <i class="i-plain i-xlarge divcenter nobottommargin icon-bulb"></i>
                     <div class="counter counter-large" style="color: #16a085;"><span data-from="0" data-to="<?= $totalI ?>"
                                                                                      data-refresh-interval="50"
                                                                                      data-speed="3500"></span>
@@ -104,7 +75,7 @@
                 </div>
 
                 <div class="col_one_fourth center col_last" data-animate="bounceIn" data-delay="600">
-                    <i class="i-plain i-xlarge divcenter nobottommargin icon-cup"></i>
+                    <i class="i-plain i-xlarge divcenter nobottommargin icon-comment"></i>
                     <div class="counter counter-large" style="color: #9b59b6;"><span data-from="0" data-to="<?=$totalC?>" data-refresh-interval="30" data-speed="2700"></span></div>
                     <h5>Total Comments</h5>
                 </div>
@@ -118,9 +89,8 @@
                         if ($_SESSION["user_role"] == 0) {
                                 echo "
                     <div class=\"promo promo-light bottommargin\">
-                    <h3>Call us today at <span>+91.22.57412541</span> or Email us at <span>support@canvas.com</span>
+                    <h3> Email us at <span> info@ideaportal.rubelmahmud.me</span>
                     </h3>
-                    <span>We strive to provide Our Customers with Top Notch Support to make their Theme Experience Wonderful</span>
                     <a href=\"ideaSubmit.php\" class=\"button button-xlarge button-rounded\">Submit Idea</a>
                 </div>
                         
@@ -130,9 +100,8 @@
                         } else if ($_SESSION["user_role"] == 1) {
                                 echo "
                 <div class=\"promo promo-light bottommargin\">
-                    <h3>Call us today at <span>+91.22.57412541</span> or Email us at <span>support@canvas.com</span>
+                    <h3>Email us at <span> info@ideaportal.rubelmahmud.me</span>
                     </h3>
-                    <span>We strive to provide Our Customers with Top Notch Support to make their Theme Experience Wonderful</span>
                     <a href=\"ideaListView.php\" class=\"button button-xlarge button-rounded\">Browse Ideas</a>
                 </div>
                         
@@ -143,7 +112,8 @@
                     <div class=\"promo promo-light bottommargin\">
                     <h3> LOGIN TO EXPLORE <span>IDEAS</span> & DO <span>COMMENTS</span>
                     </h3>
-                    <span>Login to explore ideas and do comment</span>
+					<p>Email us at : <span> info@ideaportal.rubelmahmud.me</span></p>
+                    
                     <a href=\"login.php\" class=\"button button-xlarge button-rounded\">Login</a>
                 </div>
                     

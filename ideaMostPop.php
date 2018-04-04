@@ -21,7 +21,7 @@ WHERE thumbsupdown.ideas_number=student_ideas.ideas_number
 AND student_ideas.user_id = user.user_id
 AND thumbsupdown.type='1'
 GROUP BY thumbsupdown.ideas_number
-ORDER BY Pop DESC";
+ORDER BY Pop DESC LIMIT 5";
 
                 $result = mysqli_query($conn, $query);
                 ?>
@@ -32,14 +32,14 @@ ORDER BY Pop DESC";
                                         <h3 align="center">MOST POPULAR IDEAS</h3>
                                         <br/>
                                         <div class="table-responsive">
-                                                <table id="idea_data" class="table table-striped table-bordered">
+                                                <table id="" class="table table-striped table-bordered" style="margin-top: 15px;">
                                                         <thead>
-                                                        <tr>
+                                                        <tr style="background-color: #1bbc9b; color: white;">
                                                                 <th>No.</th>
                                                                 <th>Idea Title</th>
                                                                  <th>Idea By</th>
                                                                 <th>Total Likes</th>
-                                                                <th></th>
+                                                            
 
                                                         </tr>
                                                         </thead>

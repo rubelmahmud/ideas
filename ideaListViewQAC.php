@@ -17,7 +17,7 @@ if(isset($_SESSION['user_role']) && $_SESSION['user_role'] != 3){
         <div class="container clearfix">
 
                 <h1>Ideas</h1>
-                <span>Check ideas</span>
+                <span>View Ideas</span>
                 <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Idea</li>
@@ -48,7 +48,7 @@ WHERE student_ideas.user_id = user.user_id
 AND student_ideas.category_id = category.category_id
 AND user.department_id = department.department_id
 AND department.department_id=$dep
-ORDER BY student_ideas.posted_time DESC ";
+ORDER BY student_ideas.posted_time DESC";
 
 
 
@@ -58,8 +58,8 @@ $result = mysqli_query($conn, $sql);
 <section id="content">
         <div class="content-wrap">
             <div class="container">
-                <h3>Manage Ideas</h3>
-                <h5>My Department Wise (<?php echo $depN?>)</h5>
+                <h3 align="center">Manage Ideas</h3>
+                <h5 align="center" style="color: orange;"> My Department ( <?php echo $depN?> )</h5>
                     <?php
                     if (isset($_SESSION['successDelete'])) {
                             ?>
@@ -73,12 +73,12 @@ $result = mysqli_query($conn, $sql);
                     }
                     ?>
                         <div class="table-responsive">
-                                <table class="table table-bordered nobottommargin">
+                                <table class="table table-bordered nobottommargin" id="" style="margin-top: 15px;">
                                         <thead>
-                                        <tr>
+                                        <tr style="background-color: #1bbc9b; color: white;">
                                                 <th>No.</th>
                                                 <th>Idea Title</th>
-                                                <th>Idea Description</th>
+                                                <th style="width: 200px;">Idea Description</th>
                                                 <th>Category</th>
                                                 <th>Idea Posted</th>
                                                 <th>Idea By</th>
@@ -107,7 +107,7 @@ $result = mysqli_query($conn, $sql);
                                                 </td>
                                                 <?php } ?>
 
-                                                <td><a href="ideaDelete.php?ideas_number=<?= $row['ideas_number'] ?>">Remove</td>
+                                                <td><a href="ideaDelete.php?ideas_number=<?= $row['ideas_number'] ?>"><div class="icon-remove"></div> Remove</td>
                                         </tr>
                                         </tbody>
                                                 <?php
@@ -143,3 +143,12 @@ $result = mysqli_query($conn, $sql);
         content: counter(Serial); /* Display the counter */
     }
 </style>
+
+<script>
+    $(document).ready(function(){
+        $('#manage_idea_qac').DataTable({
+            "pageLength": 10
+            // "lengthChange": false
+        });
+    });
+</script>

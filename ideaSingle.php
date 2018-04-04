@@ -71,7 +71,7 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                         ============================================= -->
 
                         <div class="entry-title">
-                            <h2>
+                            <h2 >
                                 <a href="ideaSingle.php?ideas_number=<?php echo $row['ideas_number']; ?>"><?= $row['ideas_title'] ?></a>
                             </h2>
                         </div><!-- .entry-title end -->
@@ -105,10 +105,11 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
 
                             <ul>
 <!--                                <li>Idea Taking Closer Date: <b>--><?//= date("d F, Y", strtotime($row["ideas_closer_date"])); ?><!--</b></li>-->
-                                <li>Comment Closer Date:<b> <?= date("d F, Y", strtotime($row["ideas_final_closer_date"])); ?></b></li>
+								
+                            <span style="color: #A57164	; font-size: 15px;">    Comment Closer <i class="icon-calendar2" style="color: orange;"><b> <?= date("d F, Y", strtotime($row["ideas_final_closer_date"])); ?></b></i>
                             </ul>
-
-                            <p><?= $row['ideas_description'] ?></p>
+							</br>
+                            <p style="color:black	; font-size: 17px;"><?= $row['ideas_description'] ?></p>
 
 
                             <!-- Post Single - Content End -->
@@ -205,14 +206,14 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                                     <!-- Showing Student Comment Only  -->
                             <div class="card-header">
                                     <div class="name" align="left">
-                                        <i class="icon-user" style="color: #31C3A6;"> Commented by</i>
+                                        <i class="icon-user" style="color: #31C3A6;  font-size: 15px;"> Commented By </i>
                                         <strong>
                                                     <?php if ($rowCom["comment_type"] == 1) {
                                                             echo "Anonymous";
                                                     } else {
 
                                                             $u_name = $rowCom['user_id'];
-                                                            $sqlCn = "SELECT user_name FROM user WHERE user_id = $u_name";
+                                                            $sqlCn = "SELECT * FROM user WHERE user_id = $u_name";
                                                             $resultCn = $conn->query($sqlCn);
                                                             foreach ($resultCn as $rowCn) {
                                                                     echo $rowCn['user_name'];
@@ -231,8 +232,9 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                                             <?php if ($rowCom["comment_type"] == 1) {
                                                     echo "<img src=\"images/author/anony.png\" alt=\"Anony\" class=\"rounded-circle\">";
                                             } else {
-                                                    echo "<img src=\"images/author/rsz_ava.png\" alt=\"Avatar\" class=\"rounded-circle\">"; ?>
 
+
+                                                echo "<img src=\"images/author/rsz_ava.png\" alt=\"Avatar\" class=\"rounded-circle\">"; ?>
                                             <?php } ?>
                                     </div>
                                     <br>
@@ -282,11 +284,12 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                        </div>
                       <?php }
                          } } ?>
-
+</div>
 
         </div><!-- Post Single - Author End -->
-<!--
+<!--Side bar widget-->
 
+	<?php include "ideaSingleWidget.php"; ?>
 
     <div id="disqus_thread"></div>
 

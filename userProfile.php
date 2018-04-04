@@ -127,9 +127,9 @@ ORDER BY student_ideas.posted_time DESC ";
                 if ($_SESSION["user_role"] == 0) {
                         echo "
                     <div class=\"promo promo-light bottommargin\">
-                    <h3>Call us today at <span>+91.22.57412541</span> or Email us at <span>support@canvas.com</span>
+                    <h3> Email us at <span>info@ideaportal.rubelmahmud.me</span>
                     </h3>
-                    <span>We strive to provide Our Customers with Top Notch Support to make their Theme Experience Wonderful</span>
+                    
                     <a href=\"ideaSubmit.php\" class=\"button button-xlarge button-rounded\">Submit Idea</a>
                 </div>
                         
@@ -139,9 +139,9 @@ ORDER BY student_ideas.posted_time DESC ";
                 } else if ($_SESSION["user_role"] != 0) {
                         echo "
                 <div class=\"promo promo-light bottommargin\">
-                    <h3>Call us today at <span>+91.22.57412541</span> or Email us at <span>support@canvas.com</span>
+                    <h3> Email us at <span>info@ideaportal.rubelmahmud.me</span>
                     </h3>
-                    <span>We strive to provide Our Customers with Top Notch Support to make their Theme Experience Wonderful</span>
+                    
                     <a href=\"ideaListView.php\" class=\"button button-xlarge button-rounded\">Browse Ideas</a>
                 </div>
                         

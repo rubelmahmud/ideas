@@ -14,7 +14,7 @@ session_start();
                 <div class="container clearfix">
 
                     <h1>Ideas</h1>
-                    <span>Check ideas</span>
+                    <span>View Ideas</span>
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Idea</li>
@@ -39,9 +39,9 @@ ORDER BY student_ideas.posted_time DESC ";
                 <h3 align="center">IDEA LIST</h3>
                 <br/>
                 <div class="table-responsive">
-                    <table id="idea_data" class="table table-striped table-bordered">
+                    <table id="idea_data" class="table table-striped table-bordered" style="margin-top: 15px;">
                         <thead>
-                        <tr>
+                        <tr style="background-color: #1bbc9b; color: white;">
                             <th>No.</th>
                             <th>Idea Title</th>
                             <th>Idea Description</th>
