@@ -7,12 +7,14 @@
                         <div class="row clearfix">
                                 <div class="col-xl-5">
                                         <div class="heading-block topmargin">
-                                            <h1 align="center"><font color="#a52a2a"><b>Sorry</b>!</font> <br> Email or Password is wrong</h1>
+                                            <h1 align="center"><font color="#a52a2a"><b>Sorry</b>!</font> <br> Your entered pin is wrong</h1>
                                         </div>
                                 <div class="try">
                                     <h3 align="center"><font color="#d2691e"><b>Try Again</b>!</font></h3>
                                 </div>
-
+                                <p align="center">
+                                    <a class="button button-3d nomargin" href="loginStaffPin.php">Login</a>
+                                </p>
                                 </div>
                                 <div class="col-xl-7">
                                         <div style="position: relative; margin-bottom: -60px;" class="ohidden" data-height-xl="426"

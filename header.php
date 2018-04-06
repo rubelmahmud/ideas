@@ -176,7 +176,11 @@
                             } else {
                                     // Homepage
                                     echo "<li><a href=\"index.php\"><div>Home</div></a></li>";
-                                    echo "<li><a href=\"login.php\"><div>Login</div></a></li>";
+                                    echo "<li><a href=\"login.php\"><div>Login</div></a>
+                                                        <ul>
+                                                            <li><a href=\"loginStaffPin.php\"><div>Staff Login</div></a></li>
+                                                        </ul>
+                                                     </li>";
 
                             } ?>
                     </ul>

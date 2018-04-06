@@ -7,7 +7,8 @@ $user_pass = $_POST['user_pass'];
 
 include 'connect-db.php';
 // $conn = connect();
-$sql = "SELECT * FROM user WHERE user_email='$user_email' AND user_pass='$user_pass'";
+$sql = "SELECT * FROM user WHERE user_email='$user_email' 
+AND user_pass='$user_pass'";
 
 $result = $conn->query($sql);
 
@@ -20,11 +21,17 @@ if ($result->num_rows > 0) {
                 
         }
         $_SESSION["loggedin"] = true;
-        if ($_SESSION["user_role"] == 0) {    // 0 = student
+        if ($_SESSION["user_role"] == 1) {              // 0 = supervisor
                 header("location:ideaListView.php");
-        } else if ($_SESSION["user_role"] !== 0) {          //1 = stuff
+        } else if ($_SESSION["user_role"] == 2) {          //2 = qa
+                header("location:userSummary.php");
+        } else if ($_SESSION["user_role"] == 3) {          //3 = qac
+                header("location:ideaListView.php");
+        } else if ($_SESSION["user_role"] == 4) {       //4 = admin
+                header("location:userManage.php");
+        } else if ($_SESSION["user_role"] == 0) {
                 header("location:userLoginFailed.php");
-       }
+        }
 
 } else {
 
