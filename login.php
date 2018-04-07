@@ -1,3 +1,10 @@
+<?php 
+session_start();
+// on login screen, redirect to dashboard if already logged in
+if(isset($_SESSION['user_email'])){
+    header('location:index.php');
+} ?>
+
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 <head>
@@ -20,7 +27,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>Login</title>
+	<title>Student Login</title>
 
 </head>
 

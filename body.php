@@ -89,7 +89,7 @@
                         if ($_SESSION["user_role"] == 0) {
                                 echo "
                     <div class=\"promo promo-light bottommargin\">
-                    <h3> Email us at <span> info@ideaportal.rubelmahmud.me</span>
+                    <h3> Email us at <span>info@ideaportal.rubelmahmud.me</span>
                     </h3>
                     <a href=\"ideaSubmit.php\" class=\"button button-xlarge button-rounded\">Submit Idea</a>
                 </div>
@@ -100,7 +100,7 @@
                         } else if ($_SESSION["user_role"] == 1) {
                                 echo "
                 <div class=\"promo promo-light bottommargin\">
-                    <h3>Email us at <span> info@ideaportal.rubelmahmud.me</span>
+                    <h3>Email us at <span>info@ideaportal.rubelmahmud.me</span>
                     </h3>
                     <a href=\"ideaListView.php\" class=\"button button-xlarge button-rounded\">Browse Ideas</a>
                 </div>

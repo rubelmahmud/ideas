@@ -1,3 +1,10 @@
+<?php 
+session_start();
+// on login screen, redirect to dashboard if already logged in
+if(isset($_SESSION['user_email'])){
+    header('location:index.php');
+} ?>
+
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 <head>
@@ -20,7 +27,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>Login</title>
+	<title>Staff Login</title>
 
 </head>
 
@@ -70,7 +77,7 @@
 									</div>
 
 									<div class="col_full nobottommargin">
-										<button class="button button-3d button-black nomargin" id="login-form-submit" name="login-form-submit" value="login">Enter</button>
+										<button class="button button-3d button-black nomargin" id="login-form-submit" name="login-form-submit" value="login">Next</button>
 									</div>
 								</form>
 

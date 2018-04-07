@@ -1,0 +1,758 @@
+[04-Apr-2018 05:18:57 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/rubefzqu/ideaportal.rubelmahmud.me/connect-db.php on line 8
+[04-Apr-2018 05:18:57 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/rubefzqu/ideaportal.rubelmahmud.me/connect-db.php on line 8
+[04-Apr-2018 05:34:43 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 05:34:43 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 05:36:22 America/New_York] PHP Notice:  Undefined index: comment_description in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaComSQL.php on line 9
+[04-Apr-2018 05:36:22 America/New_York] PHP Notice:  Undefined index: ideas_number in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaComSQL.php on line 11
+[04-Apr-2018 05:45:47 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 05:45:47 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 05:55:48 America/New_York] PHP Notice:  Undefined index: user_email in /home/rubefzqu/ideaportal.rubelmahmud.me/loginChecker.php on line 4
+[04-Apr-2018 05:55:48 America/New_York] PHP Notice:  Undefined index: user_pass in /home/rubefzqu/ideaportal.rubelmahmud.me/loginChecker.php on line 5
+[04-Apr-2018 05:57:12 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 05:57:12 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 05:57:39 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 05:57:39 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 05:58:09 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 05:58:09 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 06:03:27 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[04-Apr-2018 06:03:27 America/New_York] PHP Warning:  rename(1522836207.zip,uploadFileZip/1522836207.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[04-Apr-2018 06:05:28 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 06:05:28 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 06:22:43 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 06:22:43 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 06:50:28 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 06:50:28 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 06:52:15 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[04-Apr-2018 06:52:15 America/New_York] PHP Warning:  rename(1522839135.zip,uploadFileZip/1522839135.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[04-Apr-2018 07:21:07 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[04-Apr-2018 07:21:07 America/New_York] PHP Warning:  rename(1522840867.zip,uploadFileZip/1522840867.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[04-Apr-2018 07:21:56 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[04-Apr-2018 07:21:56 America/New_York] PHP Warning:  rename(1522840916.zip,uploadFileZip/1522840916.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[04-Apr-2018 07:22:30 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[04-Apr-2018 07:22:30 America/New_York] PHP Warning:  rename(1522840950.zip,uploadFileZip/1522840950.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[04-Apr-2018 07:23:00 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[04-Apr-2018 07:23:00 America/New_York] PHP Warning:  rename(1522840980.zip,uploadFileZip/1522840980.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[04-Apr-2018 07:24:41 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[04-Apr-2018 07:24:41 America/New_York] PHP Warning:  rename(1522841081.zip,uploadFileZip/1522841081.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[04-Apr-2018 07:26:16 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[04-Apr-2018 07:26:16 America/New_York] PHP Warning:  rename(1522841176.zip,uploadFileZip/1522841176.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[04-Apr-2018 07:26:35 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[04-Apr-2018 07:26:35 America/New_York] PHP Warning:  rename(1522841195.zip,uploadFileZip/1522841195.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[04-Apr-2018 07:26:53 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[04-Apr-2018 07:26:53 America/New_York] PHP Warning:  rename(1522841213.zip,uploadFileZip/1522841213.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[04-Apr-2018 07:29:12 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[04-Apr-2018 07:29:12 America/New_York] PHP Warning:  rename(1522841352.zip,uploadFileZip/1522841352.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[04-Apr-2018 09:04:07 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 09:04:07 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 11:19:13 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 11:19:13 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 11:29:21 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 11:29:21 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 11:29:40 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 11:29:40 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 11:32:41 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[04-Apr-2018 11:32:41 America/New_York] PHP Warning:  rename(1522855961.zip,uploadFileZip/1522855961.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[04-Apr-2018 11:35:36 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[04-Apr-2018 11:35:36 America/New_York] PHP Warning:  rename(1522856136.zip,uploadFileZip/1522856136.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[04-Apr-2018 11:36:49 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 11:36:49 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 11:40:01 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 11:40:01 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 11:42:54 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 11:42:54 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 11:50:42 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 11:50:42 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 15:11:15 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 15:11:15 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 15:14:23 America/New_York] PHP Notice:  Undefined index: user_email in /home/rubefzqu/ideaportal.rubelmahmud.me/loginChecker.php on line 4
+[04-Apr-2018 15:14:23 America/New_York] PHP Notice:  Undefined index: user_pass in /home/rubefzqu/ideaportal.rubelmahmud.me/loginChecker.php on line 5
+[04-Apr-2018 15:15:12 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 15:15:12 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 15:16:12 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 15:16:12 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 15:18:09 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 15:18:09 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 15:20:12 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 15:20:12 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 15:23:54 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 15:23:54 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 15:25:13 America/New_York] PHP Notice:  Undefined index: comment_description in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaComSQL.php on line 9
+[04-Apr-2018 15:25:13 America/New_York] PHP Notice:  Undefined index: ideas_number in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaComSQL.php on line 11
+[04-Apr-2018 15:54:29 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 15:54:29 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 15:55:38 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 15:55:38 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 15:56:27 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 15:56:27 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 15:57:20 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 15:57:20 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 15:59:16 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 15:59:16 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:00:30 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:00:30 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:01:12 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:01:12 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:02:06 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:02:06 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:06:11 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[04-Apr-2018 16:06:11 America/New_York] PHP Warning:  rename(1522872371.zip,uploadFileZip/1522872371.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[04-Apr-2018 16:06:36 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:06:36 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:07:03 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:07:03 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:17:23 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:17:23 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:17:54 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:17:54 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:19:31 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[04-Apr-2018 16:19:31 America/New_York] PHP Warning:  rename(1522873171.zip,uploadFileZip/1522873171.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[04-Apr-2018 16:20:00 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:20:00 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:20:32 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:20:32 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:22:01 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:22:01 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:22:12 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:22:12 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:22:20 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:22:20 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:22:27 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:22:27 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:29:55 America/New_York] PHP Notice:  Undefined index: user_email in /home/rubefzqu/ideaportal.rubelmahmud.me/loginChecker.php on line 4
+[04-Apr-2018 16:29:55 America/New_York] PHP Notice:  Undefined index: user_pass in /home/rubefzqu/ideaportal.rubelmahmud.me/loginChecker.php on line 5
+[04-Apr-2018 16:30:41 America/New_York] PHP Notice:  Undefined index: user_email in /home/rubefzqu/ideaportal.rubelmahmud.me/loginChecker.php on line 4
+[04-Apr-2018 16:30:41 America/New_York] PHP Notice:  Undefined index: user_pass in /home/rubefzqu/ideaportal.rubelmahmud.me/loginChecker.php on line 5
+[04-Apr-2018 16:33:08 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[04-Apr-2018 16:33:08 America/New_York] PHP Warning:  rename(1522873988.zip,uploadFileZip/1522873988.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[04-Apr-2018 16:35:13 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[04-Apr-2018 16:35:13 America/New_York] PHP Warning:  rename(1522874113.zip,uploadFileZip/1522874113.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[04-Apr-2018 16:35:24 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:35:24 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:35:37 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:35:37 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:35:38 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:35:38 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:35:38 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:35:38 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:35:42 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:35:42 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:36:03 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:36:03 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:36:13 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:36:13 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:36:20 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:36:20 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:36:38 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:36:38 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:36:47 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:36:47 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:37:57 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:37:57 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:38:09 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:38:09 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:38:21 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:38:21 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:38:21 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:38:21 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:38:22 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:38:22 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:38:22 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:38:22 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:40:44 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:40:44 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:40:59 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:40:59 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:41:42 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:41:42 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 16:42:01 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 16:42:01 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 17:02:31 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[04-Apr-2018 17:02:31 America/New_York] PHP Warning:  rename(1522875751.zip,uploadFileZip/1522875751.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[04-Apr-2018 17:02:56 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 17:02:56 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 17:04:46 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 17:04:46 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 17:06:00 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 17:06:00 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 17:10:46 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 17:10:46 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 17:12:41 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 17:12:41 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 17:15:19 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[04-Apr-2018 17:15:19 America/New_York] PHP Warning:  rename(1522876519.zip,uploadFileZip/1522876519.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[04-Apr-2018 17:16:00 America/New_York] PHP Notice:  Undefined index: user_email in /home/rubefzqu/ideaportal.rubelmahmud.me/loginChecker.php on line 4
+[04-Apr-2018 17:16:00 America/New_York] PHP Notice:  Undefined index: user_pass in /home/rubefzqu/ideaportal.rubelmahmud.me/loginChecker.php on line 5
+[04-Apr-2018 17:16:51 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 17:16:51 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 17:16:59 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[04-Apr-2018 17:16:59 America/New_York] PHP Warning:  rename(1522876619.zip,uploadFileZip/1522876619.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[04-Apr-2018 17:17:43 America/New_York] PHP Notice:  Undefined index: comment_description in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaComSQL.php on line 9
+[04-Apr-2018 17:17:43 America/New_York] PHP Notice:  Undefined index: ideas_number in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaComSQL.php on line 11
+[04-Apr-2018 17:17:46 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 17:17:46 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 17:19:18 America/New_York] PHP Notice:  Undefined index: user_email in /home/rubefzqu/ideaportal.rubelmahmud.me/loginChecker.php on line 4
+[04-Apr-2018 17:19:18 America/New_York] PHP Notice:  Undefined index: user_pass in /home/rubefzqu/ideaportal.rubelmahmud.me/loginChecker.php on line 5
+[04-Apr-2018 17:19:39 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 17:19:39 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 17:20:02 America/New_York] PHP Notice:  Undefined index: comment_description in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaComSQL.php on line 9
+[04-Apr-2018 17:20:02 America/New_York] PHP Notice:  Undefined index: ideas_number in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaComSQL.php on line 11
+[04-Apr-2018 17:20:05 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 17:20:05 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 17:20:23 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 17:20:23 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 17:20:28 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 17:20:28 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 17:21:41 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 17:21:41 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 17:23:37 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 17:23:37 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 17:24:52 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 17:24:52 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 17:25:18 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 17:25:18 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 17:28:06 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 17:28:06 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 17:32:30 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 17:32:30 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 22:12:27 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 22:12:27 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 22:13:19 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 22:13:19 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[04-Apr-2018 22:15:09 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[04-Apr-2018 22:15:09 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[05-Apr-2018 00:31:22 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/index.php on line 2
+[05-Apr-2018 01:31:00 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[05-Apr-2018 01:31:00 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[05-Apr-2018 02:45:38 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[05-Apr-2018 02:45:38 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[05-Apr-2018 03:24:30 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[05-Apr-2018 03:24:30 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[05-Apr-2018 03:25:59 America/New_York] PHP Notice:  Undefined index: comment_description in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaComSQL.php on line 9
+[05-Apr-2018 03:25:59 America/New_York] PHP Notice:  Undefined index: ideas_number in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaComSQL.php on line 11
+[05-Apr-2018 03:51:33 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[05-Apr-2018 03:51:33 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[05-Apr-2018 03:53:42 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[05-Apr-2018 03:53:42 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[05-Apr-2018 03:54:52 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[05-Apr-2018 03:54:52 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[05-Apr-2018 03:56:17 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[05-Apr-2018 03:56:17 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[05-Apr-2018 04:00:25 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[05-Apr-2018 04:00:25 America/New_York] PHP Warning:  rename(1522915225.zip,uploadFileZip/1522915225.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[05-Apr-2018 04:01:34 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[05-Apr-2018 04:01:34 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[05-Apr-2018 04:03:51 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[05-Apr-2018 04:03:51 America/New_York] PHP Warning:  rename(1522915431.zip,uploadFileZip/1522915431.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[05-Apr-2018 04:06:12 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[05-Apr-2018 04:06:12 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[05-Apr-2018 04:08:56 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[05-Apr-2018 04:08:56 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[05-Apr-2018 04:12:32 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[05-Apr-2018 04:12:32 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[05-Apr-2018 04:30:03 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[05-Apr-2018 04:30:03 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[05-Apr-2018 04:34:44 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[05-Apr-2018 04:34:44 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[05-Apr-2018 04:35:03 America/New_York] PHP Notice:  Undefined index: comment_description in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaComSQL.php on line 9
+[05-Apr-2018 04:35:03 America/New_York] PHP Notice:  Undefined index: ideas_number in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaComSQL.php on line 11
+[05-Apr-2018 04:35:05 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[05-Apr-2018 04:35:05 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[05-Apr-2018 04:35:09 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[05-Apr-2018 04:35:09 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[05-Apr-2018 04:36:59 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[05-Apr-2018 04:36:59 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[05-Apr-2018 04:38:07 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[05-Apr-2018 04:38:07 America/New_York] PHP Warning:  rename(1522917487.zip,uploadFileZip/1522917487.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[05-Apr-2018 04:38:22 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[05-Apr-2018 04:38:22 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[05-Apr-2018 04:39:40 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[05-Apr-2018 04:39:40 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[05-Apr-2018 04:40:22 America/New_York] PHP Notice:  Undefined index: comment_description in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaComSQL.php on line 9
+[05-Apr-2018 04:40:22 America/New_York] PHP Notice:  Undefined index: ideas_number in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaComSQL.php on line 11
+[05-Apr-2018 05:28:08 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[05-Apr-2018 05:28:08 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[05-Apr-2018 05:28:44 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[05-Apr-2018 05:28:44 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[05-Apr-2018 05:29:52 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[05-Apr-2018 05:29:52 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[05-Apr-2018 05:30:09 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[05-Apr-2018 05:30:09 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[05-Apr-2018 05:30:21 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[05-Apr-2018 05:30:21 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[05-Apr-2018 05:32:55 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 141
+[05-Apr-2018 05:32:55 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 143
+[05-Apr-2018 20:50:41 Asia/Dhaka] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[05-Apr-2018 20:50:41 Asia/Dhaka] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 144
+[05-Apr-2018 11:42:50 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[05-Apr-2018 11:42:50 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[05-Apr-2018 11:44:50 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[05-Apr-2018 11:44:50 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[05-Apr-2018 13:29:18 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[05-Apr-2018 13:29:18 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[05-Apr-2018 13:45:55 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[05-Apr-2018 13:45:55 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[05-Apr-2018 13:48:01 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[05-Apr-2018 13:48:01 America/New_York] PHP Warning:  rename(1522950481.zip,uploadFileZip/1522950481.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[05-Apr-2018 13:51:08 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[05-Apr-2018 13:51:08 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[05-Apr-2018 13:58:04 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[05-Apr-2018 13:58:04 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[05-Apr-2018 13:58:21 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[05-Apr-2018 13:58:21 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[05-Apr-2018 13:58:43 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[05-Apr-2018 13:58:43 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[05-Apr-2018 13:58:54 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[05-Apr-2018 13:58:54 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[05-Apr-2018 13:59:07 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[05-Apr-2018 13:59:07 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[05-Apr-2018 13:59:17 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[05-Apr-2018 13:59:17 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[05-Apr-2018 13:59:34 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[05-Apr-2018 13:59:34 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[05-Apr-2018 16:10:53 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[05-Apr-2018 16:10:53 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[05-Apr-2018 16:13:11 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[05-Apr-2018 16:13:11 America/New_York] PHP Warning:  rename(1522959191.zip,uploadFileZip/1522959191.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[05-Apr-2018 16:13:33 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[05-Apr-2018 16:13:33 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[05-Apr-2018 16:22:36 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[05-Apr-2018 16:22:36 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[05-Apr-2018 16:30:22 America/New_York] PHP Warning:  ZipArchive::close(): Read error: Is a directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 26
+[05-Apr-2018 16:30:22 America/New_York] PHP Warning:  rename(1522960222.zip,uploadFileZip/1522960222.zip): No such file or directory in /home/rubefzqu/ideaportal.rubelmahmud.me/uploadZipFile.php on line 34
+[05-Apr-2018 16:30:48 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[05-Apr-2018 16:30:48 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[05-Apr-2018 19:56:29 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[05-Apr-2018 19:56:29 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[05-Apr-2018 23:13:54 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[05-Apr-2018 23:13:54 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[06-Apr-2018 01:38:15 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[06-Apr-2018 01:38:15 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[06-Apr-2018 01:38:16 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[06-Apr-2018 01:38:16 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[06-Apr-2018 01:38:19 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[06-Apr-2018 01:38:19 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[06-Apr-2018 01:38:24 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[06-Apr-2018 01:38:24 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[06-Apr-2018 01:38:29 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[06-Apr-2018 01:38:29 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[06-Apr-2018 01:38:43 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[06-Apr-2018 01:38:43 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[06-Apr-2018 01:38:46 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[06-Apr-2018 01:38:46 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[06-Apr-2018 01:38:49 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[06-Apr-2018 01:38:49 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[06-Apr-2018 02:14:46 America/New_York] PHP Notice:  Undefined index: user_email in /home/rubefzqu/ideaportal.rubelmahmud.me/loginChecker.php on line 4
+[06-Apr-2018 02:14:46 America/New_York] PHP Notice:  Undefined index: user_pass in /home/rubefzqu/ideaportal.rubelmahmud.me/loginChecker.php on line 5
+[06-Apr-2018 04:17:14 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[06-Apr-2018 04:17:14 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[06-Apr-2018 04:17:30 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[06-Apr-2018 04:17:30 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[06-Apr-2018 05:45:47 America/New_York] PHP Notice:  Undefined index: user_email in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 4
+[06-Apr-2018 05:45:47 America/New_York] PHP Notice:  Undefined index: user_pass in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 5
+[06-Apr-2018 06:15:44 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[06-Apr-2018 06:15:44 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[06-Apr-2018 06:15:52 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[06-Apr-2018 06:15:52 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[06-Apr-2018 06:16:36 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[06-Apr-2018 06:16:36 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[06-Apr-2018 06:16:54 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[06-Apr-2018 06:16:54 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[06-Apr-2018 09:30:02 America/New_York] PHP Notice:  Undefined index: user_email in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 4
+[06-Apr-2018 09:30:02 America/New_York] PHP Notice:  Undefined index: user_pass in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 5
+[06-Apr-2018 09:36:02 America/New_York] PHP Notice:  Undefined index: user_pin in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 4
+[06-Apr-2018 09:36:33 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:36:33 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:36:33 America/New_York] PHP Warning:  Illegal string offset 'loggedin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 18
+[06-Apr-2018 09:36:33 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 20
+[06-Apr-2018 09:36:33 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 20
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'loggedin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 18
+[06-Apr-2018 09:38:01 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 20
+[06-Apr-2018 09:38:01 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 20
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'loggedin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 18
+[06-Apr-2018 09:40:02 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 20
+[06-Apr-2018 09:40:02 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 20
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'loggedin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 18
+[06-Apr-2018 09:40:42 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 20
+[06-Apr-2018 09:40:42 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 20
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'loggedin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 18
+[06-Apr-2018 09:42:13 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 20
+[06-Apr-2018 09:42:13 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 20
+[06-Apr-2018 09:45:26 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:45:26 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:45:26 America/New_York] PHP Warning:  Illegal string offset 'loggedin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 18
+[06-Apr-2018 09:45:26 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 20
+[06-Apr-2018 09:45:26 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 20
+[06-Apr-2018 09:45:33 America/New_York] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 8
+[06-Apr-2018 09:45:37 America/New_York] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 8
+[06-Apr-2018 09:45:40 America/New_York] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 8
+[06-Apr-2018 09:45:44 America/New_York] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 8
+[06-Apr-2018 09:45:46 America/New_York] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 8
+[06-Apr-2018 09:46:29 America/New_York] PHP Notice:  Undefined index: user_email in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 4
+[06-Apr-2018 09:46:29 America/New_York] PHP Notice:  Undefined index: user_pass in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 5
+[06-Apr-2018 09:46:29 America/New_York] PHP Notice:  Undefined variable: GET in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 6
+[06-Apr-2018 09:46:44 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:46:44 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:46:44 America/New_York] PHP Warning:  Illegal string offset 'loggedin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 18
+[06-Apr-2018 09:46:44 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 20
+[06-Apr-2018 09:46:44 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 20
+[06-Apr-2018 09:46:49 America/New_York] PHP Notice:  Undefined variable: GET in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 6
+[06-Apr-2018 09:50:35 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:50:35 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:50:35 America/New_York] PHP Warning:  Illegal string offset 'loggedin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 18
+[06-Apr-2018 09:50:35 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 20
+[06-Apr-2018 09:50:35 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 20
+[06-Apr-2018 09:50:35 America/New_York] PHP Notice:  Undefined variable: GET in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 47
+[06-Apr-2018 09:50:41 America/New_York] PHP Notice:  Undefined index: user_pin in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 6
+[06-Apr-2018 09:51:40 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:51:40 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 15
+[06-Apr-2018 09:51:40 America/New_York] PHP Warning:  Illegal string offset 'loggedin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 18
+[06-Apr-2018 09:51:40 America/New_York] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 20
+[06-Apr-2018 09:51:40 America/New_York] PHP Warning:  Illegal string offset 'user_pin' in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 20
+[06-Apr-2018 09:51:40 America/New_York] PHP Notice:  Undefined variable: GET in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 47
+[06-Apr-2018 09:51:43 America/New_York] PHP Notice:  Undefined index: user_pin in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 6
+[06-Apr-2018 10:23:21 America/New_York] PHP Notice:  Undefined index: user_pin in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 4
+[06-Apr-2018 10:24:50 America/New_York] PHP Notice:  Undefined index: user_pin in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 4
+[06-Apr-2018 10:25:24 America/New_York] PHP Notice:  Undefined index: user_email in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 4
+[06-Apr-2018 10:25:24 America/New_York] PHP Notice:  Undefined index: user_pass in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 5
+[06-Apr-2018 10:25:24 America/New_York] PHP Notice:  Undefined index: user_pin in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 6
+[06-Apr-2018 10:26:08 America/New_York] PHP Notice:  Undefined index: user_pin in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 4
+[06-Apr-2018 10:27:16 America/New_York] PHP Notice:  Undefined index: user_email in /home/rubefzqu/ideaportal.rubelmahmud.me/loginChecker.php on line 4
+[06-Apr-2018 10:27:16 America/New_York] PHP Notice:  Undefined index: user_pass in /home/rubefzqu/ideaportal.rubelmahmud.me/loginChecker.php on line 5
+[06-Apr-2018 10:28:21 America/New_York] PHP Notice:  Undefined index: user_pin in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 4
+[06-Apr-2018 10:29:02 America/New_York] PHP Notice:  Undefined index: user_pin in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerPin.php on line 4
+[06-Apr-2018 10:30:08 America/New_York] PHP Notice:  Undefined index: user_email in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 4
+[06-Apr-2018 10:30:08 America/New_York] PHP Notice:  Undefined index: user_pass in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 5
+[06-Apr-2018 10:30:08 America/New_York] PHP Notice:  Undefined index: user_pin in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 6
+[06-Apr-2018 10:30:39 America/New_York] PHP Notice:  Undefined index: user_email in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 4
+[06-Apr-2018 10:30:39 America/New_York] PHP Notice:  Undefined index: user_pass in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 5
+[06-Apr-2018 10:30:39 America/New_York] PHP Notice:  Undefined index: user_pin in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 6
+[06-Apr-2018 10:35:36 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[06-Apr-2018 10:35:36 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[06-Apr-2018 10:37:48 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[06-Apr-2018 10:37:48 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[06-Apr-2018 10:38:40 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[06-Apr-2018 10:38:40 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[06-Apr-2018 13:11:23 America/New_York] PHP Notice:  Undefined index: user_email in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 4
+[06-Apr-2018 13:11:23 America/New_York] PHP Notice:  Undefined index: user_pass in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 5
+[06-Apr-2018 13:11:23 America/New_York] PHP Notice:  Undefined index: user_pin in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 6
+[06-Apr-2018 13:12:17 America/New_York] PHP Notice:  Undefined index: user_email in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 4
+[06-Apr-2018 13:12:17 America/New_York] PHP Notice:  Undefined index: user_pass in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 5
+[06-Apr-2018 13:12:17 America/New_York] PHP Notice:  Undefined index: user_pin in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 6
+[06-Apr-2018 13:12:33 America/New_York] PHP Notice:  Undefined index: user_email in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 4
+[06-Apr-2018 13:12:33 America/New_York] PHP Notice:  Undefined index: user_pass in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 5
+[06-Apr-2018 13:12:33 America/New_York] PHP Notice:  Undefined index: user_pin in /home/rubefzqu/ideaportal.rubelmahmud.me/loginCheckerStaff.php on line 6
+[06-Apr-2018 13:52:44 America/New_York] PHP Notice:  Undefined index: user_pin in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 54
+[07-Apr-2018 02:13:29 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[07-Apr-2018 02:13:29 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[07-Apr-2018 02:15:18 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[07-Apr-2018 02:15:18 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[07-Apr-2018 02:16:00 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[07-Apr-2018 02:16:00 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[07-Apr-2018 02:18:46 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[07-Apr-2018 02:18:46 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[07-Apr-2018 03:09:10 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[07-Apr-2018 03:09:10 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[07-Apr-2018 03:20:28 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[07-Apr-2018 03:20:28 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[07-Apr-2018 04:54:37 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[07-Apr-2018 04:54:37 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[07-Apr-2018 10:23:08 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[07-Apr-2018 10:23:08 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[07-Apr-2018 10:23:57 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 140
+[07-Apr-2018 10:23:57 America/New_York] PHP Notice:  Undefined variable: type in /home/rubefzqu/ideaportal.rubelmahmud.me/ideaSingle.php on line 142
+[07-Apr-2018 12:05:43 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:05:44 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:05:45 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:05:45 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:05:48 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:05:48 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:05:48 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:05:49 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:05:49 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:05:49 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:05:51 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:05:52 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:05:52 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:05:52 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:05:55 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:05:57 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:05:58 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:05:58 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:05:59 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:00 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:04 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:13 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:14 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:14 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:15 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:16 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:17 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:18 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:19 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:20 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:21 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:21 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:21 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:23 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:25 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:26 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:26 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:26 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:27 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:27 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:27 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:28 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:28 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:28 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:29 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:30 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:30 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:31 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:32 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:32 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:33 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:33 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:34 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:06:35 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 66
+[07-Apr-2018 12:12:53 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 60
+[07-Apr-2018 12:13:37 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 60
+[07-Apr-2018 12:14:11 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 60
+[07-Apr-2018 12:22:05 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 60
+[07-Apr-2018 12:30:19 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 60
+[07-Apr-2018 12:37:37 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 60
+[07-Apr-2018 12:41:00 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 60
+[07-Apr-2018 12:41:44 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 60
+[07-Apr-2018 12:45:55 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 60
+[07-Apr-2018 12:46:48 America/New_York] PHP Notice:  A session had already been started - ignoring session_start() in /home/rubefzqu/ideaportal.rubelmahmud.me/loginStaff.php on line 60

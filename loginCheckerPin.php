@@ -15,16 +15,16 @@ if ($result->num_rows > 0) {
                 $_SESSION["user_pin"] = $row['user_pin'];
         }
 
-        $_SESSION["loggedin"] = true;
+       // $_SESSION["loggedin"] = true;
 
         if ($_SESSION["user_pin"] == true) {
                   // 0 = student
                 header("location:loginStaff.php");
-       } else if ($_SESSION["user_role"] == false) {
+       } else if ($_SESSION["user_pin"] == false) {
                header("location:userLoginPinFailed.php");
         }
 
 } else {
-        $_SESSION['successPin'] = 'ok';
+
         header("location:userLoginPinFailed.php");
 }

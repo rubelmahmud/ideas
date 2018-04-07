@@ -1,3 +1,10 @@
+<?php 
+session_start();
+// on login screen, redirect to dashboard if already logged in
+if(isset($_SESSION['user_email'])){
+   header('location:index.php');
+} ?>
+
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 <head>
@@ -20,7 +27,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>Login</title>
+	<title>Staff Login</title>
 
 </head>
 
@@ -49,7 +56,11 @@
 							<div class="card-body" style="padding: 40px;">
 								<form id="login-form" name="login-form" class="nobottommargin" action="loginCheckerStaff.php" method="post">
 									<h3>Login as Staff</h3>
-
+				   <?php
+                                    session_start();
+                                    $user_pin = $_SESSION["user_pin"];
+                                     ?>
+                                    <input type="hidden" name="user_pin" value="<?= $user_pin ?>" />
 
 									<div class="col_full">
 										<label for="login-form-username">User email:</label>

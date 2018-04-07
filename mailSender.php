@@ -6,17 +6,17 @@ $mail = new PHPMailer;
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+$mail->Host = 'server61.web-hosting.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'mrdw68@gmail.com';                 // SMTP username
-$mail->Password = 'ewsd12345mydw!';                           // SMTP password
+$mail->Username = 'info@ideaportal.rubelmahmud.me';                 // SMTP username
+$mail->Password = 'FtRmfx=SbLX9';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 
-$mail->setFrom('mrdw68@gmail.com', 'IDEA Portal');
+$mail->setFrom('info@ideaportal.rubelmahmud.me', 'IDEA Portal');
 //$mail->addAddress('joe@example.net', 'Joe User');     // Add a recipient
 //$mail->addAddress('ellen@example.com');               // Name is optional
-$mail->addReplyTo('mrdw68@gmail.com', 'IDEA Portal');
+$mail->addReplyTo('info@ideaportal.rubelmahmud.me', 'IDEA Portal');
 //$mail->addCC('cc@example.com');
 //$mail->addBCC('bcc@example.com');
 

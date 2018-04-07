@@ -3,11 +3,10 @@
 
 $user_email = $_POST['user_email'];
 $user_pass = $_POST['user_pass'];
-// $user_name = $_POST['user_name'];
 
 include 'connect-db.php';
 // $conn = connect();
-$sql = "SELECT * FROM user WHERE user_email='$user_email' AND user_pass='$user_pass'";
+$sql = "SELECT * FROM user WHERE user_email='$user_email' AND user_pass='$user_pass' AND user_role = 0 AND DATE(a_year) > DATE(now())";
 
 $result = $conn->query($sql);
 
@@ -20,9 +19,10 @@ if ($result->num_rows > 0) {
                 
         }
         $_SESSION["loggedin"] = true;
-        if ($_SESSION["user_role"] == 0) {    // 0 = student
+       
+      if ($_SESSION["user_role"] == 0) {    // 0 = student
                 header("location:ideaListView.php");
-        } else if ($_SESSION["user_role"] !== 0) {          //1 = stuff
+        } else if ($_SESSION["user_role"] !== 0) {          
                 header("location:userLoginFailed.php");
        }
 

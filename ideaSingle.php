@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 include 'header.php';
 
 if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
@@ -217,8 +216,8 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                                                             $resultCn = $conn->query($sqlCn);
                                                             foreach ($resultCn as $rowCn) {
                                                                     echo $rowCn['user_name'];
-                                                            }
-                                                    }?>
+                                                      }
+                                            }  ?>
                                         </strong>
                                     </div>
                                     <div class="date" align="right">
@@ -230,16 +229,15 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                                     <div class="card-body">
                                     <div class="author-image">
                                             <?php
-
+                                           
                                             if ($rowCom["comment_type"] == 1) {
-                                             echo "<img src=\"images/author/anony.png\" alt=\"Anonymous\" class=\"rounded-circle\">";
-
-                                             } else {
-                                                    $p = $rowCn['user_photo'];?>
-
+                                                    echo "<img src=\"images/author/anony.png\" alt=\"Anonymous\" class=\"rounded-circle\">";
+                                            } else { 
+                                            $p = $rowCn['user_photo'];
+                                            ?>
                                                 <img src="<?php echo $p ?>" alt="User Photo" class="rounded-circle">
                                            <?php  }
-                                             ?>
+                                              ?>
                                     </div>
                                     <br>
                                         <?php echo $rowCom['comment_description']; ?>
@@ -261,8 +259,8 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                                                             $resultCn = $conn->query($sqlCn);
                                                             foreach ($resultCn as $rowCn) {
                                                                     echo $rowCn['user_name'];
-                                                            }
-                                                    }?>
+                                                         }
+                                            } ?>
 
                                         </strong>
                                     </div>
@@ -277,11 +275,12 @@ if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
                                     <div class="card-body">
                                     <div class="author-image">
                                             <?php
-
+                                           
                                             if ($rowCom["comment_type"] == 1) {
-                                                    echo "<img src=\"images/author/anony.png\" alt=\"Anon\" class=\"rounded-circle\">";
-                                            } else {
-                                                    $p = $rowCn['user_photo']; ?>
+                                                    echo "<img src=\"images/author/anony.png\" alt=\"Anonymous\" class=\"rounded-circle\">";
+                                            } else { 
+                                            $p = $rowCn['user_photo'];
+                                            ?>
                                                 <img src="<?php echo $p ?>" alt="User Photo" class="rounded-circle">
                                            <?php  }
                                               ?>

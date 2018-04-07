@@ -3,12 +3,13 @@
 
 $user_email = $_POST['user_email'];
 $user_pass = $_POST['user_pass'];
-// $user_name = $_POST['user_name'];
+$user_pin = $_POST['user_pin']; 
 
 include 'connect-db.php';
 // $conn = connect();
 $sql = "SELECT * FROM user WHERE user_email='$user_email' 
-AND user_pass='$user_pass'";
+AND user_pass='$user_pass'
+AND user_pin='$user_pin'";
 
 $result = $conn->query($sql);
 
@@ -29,11 +30,11 @@ if ($result->num_rows > 0) {
                 header("location:ideaListView.php");
         } else if ($_SESSION["user_role"] == 4) {       //4 = admin
                 header("location:userManage.php");
-        } else if ($_SESSION["user_role"] == 0) {
-                header("location:userLoginFailed.php");
+        } else if ($_SESSION["user_role"] == 0) {       
+                header("location:userLoginFailedStf.php");
         }
 
 } else {
 
-        header("location:userLoginFailed.php");
+        header("location:userLoginFailedStf.php");
 }
