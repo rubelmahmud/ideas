@@ -57,18 +57,6 @@ if(isset($_SESSION['user_email'])){
 								<form id="login-form" name="login-form" class="nobottommargin" action="loginCheckerPin.php" method="post">
 									<h3>Enter Your Pin (Staff) </h3>
 
-                                        <?php
-                                        if(isset($_SESSION['successPin'])){
-                                                ?>
-
-                                            <div class="alert alert-success">
-                                                <i class="icon-thumbs-up"></i><strong>Wrong Pin</strong>
-                                            </div>
-                                                <?php
-                                                unset($_SESSION['successPin']);
-
-                                        }
-                                        ?>
 
 									<div class="col_full">
 										<label for="login-form-username">Pin:</label>

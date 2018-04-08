@@ -3,7 +3,7 @@ session_start();
 if(isset($_SESSION['user_role']) && $_SESSION['user_role'] != 4){
         include 'userRestrict.php';
 }else{
-include 'header.php';
+  include 'header.php';
 
 
 if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
@@ -52,9 +52,10 @@ foreach($record as $row){
 									</div>
 									<div class="col_full">
 										<label for="login-form-username">Email</label>
-										<input type="email" id="user_email" name="user_email"
+										<input type="email" id="user_email" name="user_email" onblur="verifyEmail(this)"
                                                value="<?php if(isset($user_email)) {echo $user_email ;} ?>" class="form-control not-dark" />
-									</div>
+									    <span id="error"></span>
+                                    </div>
                                     <div class="col_full">
                                         <label for="login-form-username">Role</label>
                                         <input type="text" id="user_address" name="user_address" disabled
@@ -94,3 +95,26 @@ foreach($record as $row){
 
                     include 'footer.php';
                     ?>
+
+
+      <script>
+          function verifyEmail(email){
+              //alert(email.value);
+              $.ajax({
+                  url: "verifyEmailAjax.php",
+                  data:{'user_email':email.value},
+                  success: function(result){
+
+                      if(result == 1) {
+                          $(email).css('border','5px solid red');
+                          $('#error').html('This email already exist');
+                      }
+                      else {
+                          $(email).css('border','5px solid green');
+                          $('#error').html('');
+
+                      }
+                  }
+              });
+          }
+      </script>

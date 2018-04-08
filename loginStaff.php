@@ -56,8 +56,7 @@ if(isset($_SESSION['user_email'])){
 							<div class="card-body" style="padding: 40px;">
 								<form id="login-form" name="login-form" class="nobottommargin" action="loginCheckerStaff.php" method="post">
 									<h3>Login as Staff</h3>
-				   <?php
-                                    session_start();
+				                    <?php
                                     $user_pin = $_SESSION["user_pin"];
                                      ?>
                                     <input type="hidden" name="user_pin" value="<?= $user_pin ?>" />
