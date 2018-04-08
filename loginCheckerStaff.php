@@ -1,9 +1,7 @@
 <?php
-//Login checker
-
 $user_email = $_POST['user_email'];
 $user_pass = $_POST['user_pass'];
-$user_pin = $_POST['user_pin']; 
+$user_pin = $_POST['user_pin'];
 
 include 'connect-db.php';
 // $conn = connect();
@@ -19,7 +17,7 @@ if ($result->num_rows > 0) {
                 $_SESSION["user_id"] = $row['user_id'];
                 $_SESSION["user_email"] = $row['user_email'];
                 $_SESSION["user_role"] = $row['user_role'];
-                
+
         }
         $_SESSION["loggedin"] = true;
         if ($_SESSION["user_role"] == 1) {              // 0 = supervisor
@@ -30,7 +28,7 @@ if ($result->num_rows > 0) {
                 header("location:ideaListView.php");
         } else if ($_SESSION["user_role"] == 4) {       //4 = admin
                 header("location:userManage.php");
-        } else if ($_SESSION["user_role"] == 0) {       
+        } else if ($_SESSION["user_role"] == 0) {
                 header("location:userLoginFailedStf.php");
         }
 
