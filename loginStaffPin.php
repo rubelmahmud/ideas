@@ -60,7 +60,7 @@ if(isset($_SESSION['user_email'])){
 
 									<div class="col_full">
 										<label for="login-form-username">Pin:</label>
-										<input type="text" id="user_pin" name="user_pin"
+										<input type="password" id="user_pin" name="user_pin"
                                                class="form-control not-dark" required="required" />
 									</div>
 
