@@ -27,7 +27,7 @@ if ($result->num_rows > 0) {
         } else if ($_SESSION["user_role"] == 3) {          //3 = qac
                 header("location:ideaListView.php");
         } else if ($_SESSION["user_role"] == 4) {       //4 = admin
-                header("location:userManage.php");
+                header("location:dashAdmin.php");
         } else if ($_SESSION["user_role"] == 0) {
                 header("location:userLoginFailedStf.php");
         }

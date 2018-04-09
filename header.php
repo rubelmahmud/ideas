@@ -133,7 +133,7 @@
 
                                             //Admin
                                     } else if ($_SESSION["user_role"] == 4) {
-                                            echo "<li><a href=\"index.php\"><div>Home</div></a></li>";
+                                            echo "<li><a href=\"dashAdmin.php\"><div>Home</div></a></li>";
                                             echo "<li><a href=\"ideaListView.php\"><div>Browse Idea</div></a></li>";
                                             echo "<li><a href=\"userManage.php\"><div>Manage User</div></a>
                                                         <ul>

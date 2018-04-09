@@ -5,7 +5,6 @@ if(isset($_SESSION['user_role']) && $_SESSION['user_role'] != 4){
 }else{
   include 'header.php';
 
-
 if (isset($_SESSION["loggedin"]) and $_SESSION["loggedin"] == TRUE) {
 
 ?>
